@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Petteri Nakamura</title>
+    <link>https://nakamura.fi/page/</link>
+    <description>Recent content in Pages on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Jun 2023 21:39:03 +0300</lastBuildDate><atom:link href="https://nakamura.fi/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whoami</title>
+      <link>https://nakamura.fi/page/whoami/</link>
+      <pubDate>Tue, 06 Jun 2023 21:39:03 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/page/whoami/</guid>
+      <description>I currently work as a Cyber Security Manager, where I dedicate myself to enhancing our cyber security measures. I have a robust technical background, enriched by a Master of Engineering in Cyber Security and a Bachelor of Engineering in Network Technologies. Despite this strong technical foundation, I consider myself first and foremost a people person. My passion lies not just in understanding technology, but also in shaping it to serve people safely and securely.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://nakamura.fi/page/cv/</link>
+      <pubDate>Tue, 06 Jun 2023 20:55:20 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/page/cv/</guid>
+      <description>Work Experience Deltamarin Ltd. (2017 - Present) Cyber Security Manager (2022 - Present) Service Manager (2020 - 2022) System Administrator (2017 - 2020) doop dmp Oy (2012 - 2017) System Administrator / Testing Engineer ATR Soft Oy (2011 - 2012) Software Engineer Education Higher Education Master&amp;rsquo;s Degree in Information Technology, Cyber Security, Jyväskylä University of Applied Sciences (2017 - 2020) Bachelor of Engineering, Information Technology, Häme University of Applied Sciences (2005 - 2009) Other Education Specialist Vocational Qualification in Leadership and Business Management, Business College Helsinki (2020 - 2022) Performing as a Leader Managing Personnel and Skills Managing Customer Relationships </description>
+    </item>
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://nakamura.fi/page/cybersecurity/</link>
+      <pubDate>Mon, 01 Nov 2021 12:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/page/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Learning</title>
+      <link>https://nakamura.fi/page/languagelearning/</link>
+      <pubDate>Mon, 01 Nov 2021 11:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/page/languagelearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://nakamura.fi/page/archive/</link>
+      <pubDate>Mon, 01 Nov 2021 09:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/page/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

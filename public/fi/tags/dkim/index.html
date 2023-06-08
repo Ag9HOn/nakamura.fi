@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+
+  
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://nakamura.fi/">
+    <meta name="author" content="Petteri Nakamura">
+    <meta name="description" content="Petteri Nakamura&#39;s personal website and blog">
+    <meta name="keywords" content="blog,cybersecurity,cyber,cyber security,language learning">
+    <meta name="generator" content="Hugo 0.113.0">
+    <title>
+        
+           
+               DKIM &vert; Petteri Nakamura
+           
+        
+    </title>
+    <meta itemprop="name" content="DKIM">
+    <meta itemprop="description" content="DKIM - Petteri Nakamura&#39;s personal website and blog">
+    <meta property="og:site_name" content="Petteri Nakamura">
+
+    <meta property="og:title" content="DKIM" />
+<meta property="og:description" content="Petteri Nakamura&#39;s personal website and blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nakamura.fi/fi/tags/dkim/" />
+
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+    <link href="https://nakamura.fi/fi/tags/dkim/index.xml" rel="alternate" type="application/rss+xml" title="Petteri Nakamura" />
+    <link href="https://nakamura.fi/fi/tags/dkim/index.xml" rel="feed" type="application/rss+xml" title="Petteri Nakamura" />
+    
+
+
+    
+    <link rel="canonical" href="https://nakamura.fi/fi/tags/dkim/">
+    
+
+    <link rel="stylesheet" href="https://nakamura.fi/theme.css">
+
+    
+
+    
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav sticky">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/whoami/">Whoami</a></li>
+                
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/cv/">CV</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/kyberturvallisuus/" target="">Kyberturvallisuus</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/kielten-opiskelu/" target="">Kielten oppiminen</a></li>
+                
+            
+                
+                    <li><a href="/fi/archive/" target="">Arkisto</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header class="sticky">
+
+    <div class="container">
+        <div class="logo">
+            <a href="/fi" class="logo">
+                
+                    
+                    
+                        
+                    
+                    <img src="https://seccdn.libravatar.org/avatar/2cefd619033ccec36f3cc437d79053f1?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/fi">
+                    Petteri Nakamura
+                </a>
+            </h3>
+
+            
+        </div>
+
+        <div class="languages">
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/tags/dkim/">en</a>
+                
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/fi/tags/dkim/" class="active">fi</a>
+                
+            
+            </div>
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    
+    
+        <div class="article-wrapper u-cf">
+            
+                <a class="bubble" href="https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/">
+            
+                <img src="/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/featuredImage_hu6c2141cbd19f5aa32e03b6cf6e4cc109_705961_700x350_fill_q95_box_smart1.jpg" alt="">
+            
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/">
+            D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2019-01-09</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://nakamura.fi/fi/categories/kyberturvallisuus/">Kyberturvallisuus</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://nakamura.fi/fi/author/petteri-nakamura/">Petteri Nakamura</a>
+                
+            </span>
+        
+    </div>
+
+    
+        IT on täynnä akronyymeja eikä sähköposti ole poikkeus. Tässä artikkelissa selitän, kuinka nämä kolme auttavat taistelemaan roskapostia ja muita haitallisia sähköposteja vastaan, joita me kaikki saamme joka päivä. Kaikki kolme toimivat kulissien takana eivätkä ole näkyvissä sähköpostipalveluiden loppukäyttäjille, elleivät nämä erityisesti lähde etsimään niitä.
+Taustaa Olen usein verrannut sähköpostia postikorttien lähettämiseen. Kirjoitat viestisi kovalle paperille, lisäät vastaanottajan osoitteen, allekirjoitat nimesi ja lähetät sen matkaan. Postitoimisto toimittaa kortin, mutta vastaanottajalla, viestin saatuaan, ei ole mitään keinoa tietää, että kortti on todella tullut sinulta.
+
+        
+            <a href="https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/" class="more">Jatka lukemista</a>
+        
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dmarc/">DMARC</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dkim/">DKIM</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/spf/">SPF</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/s%C3%A4hk%C3%B6posti/">Sähköposti</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://nakamura.fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/">en</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
+                <a class="bubble" href="https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+            
+                <img src="/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/featuredImage_hu0cecd65e11892e5075d6c52c6adbe0e1_132547_700x350_fill_q95_box_smart1.jpg" alt="">
+            
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+            Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2018-12-11</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://nakamura.fi/fi/categories/kyberturvallisuus/">Kyberturvallisuus</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://nakamura.fi/fi/author/petteri-nakamura/">Petteri Nakamura</a>
+                
+            </span>
+        
+    </div>
+
+    
+        Vietin itsenäisyyspäivää seuraavan perjantain vapaalla, eikä minulla ilmeisesti ollut muuta tekemistä kuin opiskella SPF:ää, DKIM:ää ja DMARC:ia. Nämä ovat sähköpostin lähettäjien keinoja tarjota viestien autentikointia näiden lähettämille viesteille, jotta roskapostisuodattimet voivat havaita väärennösyritykset. SPF ja DKIM ovat hieman vanhempia ja vakiintuneempia,DMARC:in ollessa uudempi tapa julkaista domainin politiikka pohjautuen kahteen edelliseen. Yhdessä nämä menetelmät tarjoavat yrityksille keinoja suojata brändejään uhkatoimijoiden väärentämiltä sähköposteilta.
+Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla End-to-End Measurements of Email Spoofing Attacks.
+
+        
+            <a href="https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/" class="more">Jatka lukemista</a>
+        
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dmarc/">DMARC</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dkim/">DKIM</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/spf/">SPF</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/s%C3%A4hk%C3%B6posti/">Sähköposti</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://nakamura.fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">en</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+
+    
+    <div class="paginator">
+        
+
+        
+    </div>
+
+
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Viimeisimmät artikkelit</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/gallery/rewiew-of-a-month-studying-chinese-in-taipei/">Katsaus kuukauden mittaiseen kiinan kielen opiskeluun Taipeissa</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/video/ltl-language-school-interview/">LTL kielikoulun haastattelu (Englanniksi)</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/charting-a-course-to-cybersecurity/">Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/">D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://nakamura.fi/fi/categories/"><strong>Kategoriat</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/kyberturvallisuus/">Kyberturvallisuus (3)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/kielten-opiskelu/">Kielten opiskelu (2)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Sosiaalinen media</strong>
+                
+                <a href="https://www.linkedin.com/in/petterinakamura" target="_blank" rel=""><em class="fab fa-linkedin"></em></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Muut kielet</strong>
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/tags/dkim/">en</a>
+                        
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/fi/tags/dkim/" class="active">fi</a>
+                        
+                    
+                </div>
+            
+
+            
+            <div class="archive">
+                
+                <a href="https://nakamura.fi/fi/archive/"><strong>Arkisto</strong></a>
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://www.linkedin.com/in/petterinakamura" target="_blank">
+                &copy;
+                
+                2023
+                
+                by Petteri Nakamura
+            </a>
+            -
+            <a href="https://nakamura.fi/fi/tags/dkim/index.xml">rss</a>
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VCWVGF572"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2VCWVGF572', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <script src="https://nakamura.fi/theme.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

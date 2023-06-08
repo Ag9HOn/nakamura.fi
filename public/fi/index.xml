@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Petteri Nakamura</title>
+    <link>https://nakamura.fi/fi/</link>
+    <description>Recent content on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Tue, 06 Jun 2023 21:39:03 +0300</lastBuildDate>
+    
+        <atom:link href="https://nakamura.fi/fi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Katsaus kuukauden mittaiseen kiinan kielen opiskeluun Taipeissa</title>
+      <link>https://nakamura.fi/fi/gallery/rewiew-of-a-month-studying-chinese-in-taipei/</link>
+      <pubDate>Mon, 15 May 2023 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/gallery/rewiew-of-a-month-studying-chinese-in-taipei/</guid>
+      <description>&lt;p&gt;Vietin neljä viikkoa Taipeissa maaliskuussa hiomassa kiinan kieltäni. Olin opiskellut kiinaa noin neljä vuotta ennen vierailuani ja ottanut viikoittain vapaita keskustelutunteja online-tutorien kanssa ainakin viimeiset kaksi vuotta. Tällä matkalla halusin kuitenkin parantaa tapaani vaihtaa englantiin, kun en löytänyt tapaa ilmaista itseäni kiinaksi, ja halusin totuttaa itseni paremmin puhumaan  mandariinikiinaa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LTL kielikoulun haastattelu (Englanniksi)</title>
+      <link>https://nakamura.fi/fi/video/ltl-language-school-interview/</link>
+      <pubDate>Wed, 01 Mar 2023 16:23:40 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/fi/video/ltl-language-school-interview/</guid>
+      <description>Minua haastateltiin LTL Language Schoolin Youtube-vlogissa kokemuksistani kiinan kielen opiskelusta Taipeiissa kuukauden ajan vuonna 2023.</description>
+    </item>
+    
+    <item>
+      <title>Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin</title>
+      <link>https://nakamura.fi/fi/article/charting-a-course-to-cybersecurity/</link>
+      <pubDate>Thu, 16 Feb 2023 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/article/charting-a-course-to-cybersecurity/</guid>
+      <description>Viimesen vuoden aikana olen osallistunut moniin keskusteluihin kyberturvallisuudesta merenkulkualalla. Kyberhyökkäysten määrä alalla kasvaa ja ne ovat aiheuttaneet paljon häiriöitä ja taloudellisia tappioita yrityksille ja organisaatioille. Merenkulkuala on erityisen haavoittuvainen näille uhille johtuen alusten pitkistä elinkaarista, laitevalmistajien ja varustamoiden kasvavasta pilvipohjaisten ratkaisujen käytöstä sekä uudisrakennuksissa että lisäyksinä käytössä oleviin aluksiin etähuollon ja datan keruun mahdollistamiseksi. Tämä johtaa helposti lukuisiin etäyhteyksiin aluksen ja eri järjestelmätoimittajien välillä, samalla kun ympäristön kokonaisturvallisuudesta ei ehkä ole vastuussa kukaan.</description>
+    </item>
+    
+    <item>
+      <title>D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat</title>
+      <link>https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/</link>
+      <pubDate>Wed, 09 Jan 2019 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/</guid>
+      <description>IT on täynnä akronyymeja eikä sähköposti ole poikkeus. Tässä artikkelissa selitän, kuinka nämä kolme auttavat taistelemaan roskapostia ja muita haitallisia sähköposteja vastaan, joita me kaikki saamme joka päivä. Kaikki kolme toimivat kulissien takana eivätkä ole näkyvissä sähköpostipalveluiden loppukäyttäjille, elleivät nämä erityisesti lähde etsimään niitä.
+Taustaa Olen usein verrannut sähköpostia postikorttien lähettämiseen. Kirjoitat viestisi kovalle paperille, lisäät vastaanottajan osoitteen, allekirjoitat nimesi ja lähetät sen matkaan. Postitoimisto toimittaa kortin, mutta vastaanottajalla, viestin saatuaan, ei ole mitään keinoa tietää, että kortti on todella tullut sinulta.</description>
+    </item>
+    
+    <item>
+      <title>Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?</title>
+      <link>https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</link>
+      <pubDate>Tue, 11 Dec 2018 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</guid>
+      <description>Vietin itsenäisyyspäivää seuraavan perjantain vapaalla, eikä minulla ilmeisesti ollut muuta tekemistä kuin opiskella SPF:ää, DKIM:ää ja DMARC:ia. Nämä ovat sähköpostin lähettäjien keinoja tarjota viestien autentikointia näiden lähettämille viesteille, jotta roskapostisuodattimet voivat havaita väärennösyritykset. SPF ja DKIM ovat hieman vanhempia ja vakiintuneempia,DMARC:in ollessa uudempi tapa julkaista domainin politiikka pohjautuen kahteen edelliseen. Yhdessä nämä menetelmät tarjoavat yrityksille keinoja suojata brändejään uhkatoimijoiden väärentämiltä sähköposteilta.
+Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla End-to-End Measurements of Email Spoofing Attacks.</description>
+    </item>
+    
+  </channel>
+</rss>

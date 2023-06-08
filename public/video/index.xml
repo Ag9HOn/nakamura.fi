@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videoes on Petteri Nakamura</title>
+    <link>https://nakamura.fi/video/</link>
+    <description>Recent content in Videoes on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Mar 2023 16:23:40 +0100</lastBuildDate><atom:link href="https://nakamura.fi/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LTL Language School Interview</title>
+      <link>https://nakamura.fi/video/ltl-language-school-interview/</link>
+      <pubDate>Wed, 01 Mar 2023 16:23:40 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/video/ltl-language-school-interview/</guid>
+      <description>I was interviewd by the LTL Language School for their youtube vlog about my experiences learning Chinese in Taipei for month in 2023</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kyberturvallisuus on Petteri Nakamura</title>
+    <link>https://nakamura.fi/fi/tags/kyberturvallisuus/</link>
+    <description>Recent content in Kyberturvallisuus on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Thu, 16 Feb 2023 19:28:11 +0300</lastBuildDate><atom:link href="https://nakamura.fi/fi/tags/kyberturvallisuus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin</title>
+      <link>https://nakamura.fi/fi/article/charting-a-course-to-cybersecurity/</link>
+      <pubDate>Thu, 16 Feb 2023 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/article/charting-a-course-to-cybersecurity/</guid>
+      <description>Viimesen vuoden aikana olen osallistunut moniin keskusteluihin kyberturvallisuudesta merenkulkualalla. Kyberhyökkäysten määrä alalla kasvaa ja ne ovat aiheuttaneet paljon häiriöitä ja taloudellisia tappioita yrityksille ja organisaatioille. Merenkulkuala on erityisen haavoittuvainen näille uhille johtuen alusten pitkistä elinkaarista, laitevalmistajien ja varustamoiden kasvavasta pilvipohjaisten ratkaisujen käytöstä sekä uudisrakennuksissa että lisäyksinä käytössä oleviin aluksiin etähuollon ja datan keruun mahdollistamiseksi. Tämä johtaa helposti lukuisiin etäyhteyksiin aluksen ja eri järjestelmätoimittajien välillä, samalla kun ympäristön kokonaisturvallisuudesta ei ehkä ole vastuussa kukaan.</description>
+    </item>
+    
+  </channel>
+</rss>

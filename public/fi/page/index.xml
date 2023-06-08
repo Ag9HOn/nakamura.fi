@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Petteri Nakamura</title>
+    <link>https://nakamura.fi/fi/page/</link>
+    <description>Recent content in Pages on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Tue, 06 Jun 2023 21:39:03 +0300</lastBuildDate><atom:link href="https://nakamura.fi/fi/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whoami</title>
+      <link>https://nakamura.fi/fi/page/whoami/</link>
+      <pubDate>Tue, 06 Jun 2023 21:39:03 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/page/whoami/</guid>
+      <description>Työskentelen tällä hetkellä Kyberturvallisuusjohtajana, omistautuen yrityksen tietoturvan parantamiseen. Minulla on vankka tekninen tausta ja ylempi ammattikorkeakoulututkinto Kyberturvallisuudesta sekä alempi ammattikorkeakoulututkinto tietoverkoista. Teknisestä osaamisestani huolimatta pidän itseäni ennen kaikkea ihmisläheisenä henkilönä. Intohimoni ei ole pelkästään teknologian ymmärtämiseen, vaan myös sen soveltaminen palvelemaan ihmisiä ja yhteiskuntaa turvallisesti ja luotettavasti.
+Ammatillisten kiinnostuksen kohteideni lisäksi olen intohimoinen kielten oppija, joka täydentää kiinnostustani kansainvälisiin ympäristöihin. Itä-Aasia kiehtoo minua erityisesti ja pyrin ymmärtämään sen ainutlaatuisia haasteita ja mahdollisuuksia myös kyberturvallisuuteen liittyen.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://nakamura.fi/fi/page/cv/</link>
+      <pubDate>Tue, 06 Jun 2023 20:55:20 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/page/cv/</guid>
+      <description>Työkokemus Deltamarin Ltd. (2017 - Nykyhetki) Kyberturvapäällikkö (2022 - Nykyhetki) IT Palvelupäällikkö (2020 - 2022) IT Järjestelmäylläpitäjä (2017 - 2020) doop dmp Oy (2012 - 2017) Järjestelmäylläpitäjä / Testausinsinööri ATR Soft Oy (2011 - 2012) Ohjelmistokehittäjä Koulutus Korkeakoulututkinnot Insinööri (ylempi AMK), tietotekniikka, kyberturvallisuuden koulutusohjelma (2017 - 2020) Insinööri (AMK), tietotekniikka, Hämeen ammattikorkeakoulu (2005 - 2009) Muu koulutus Johtamisen ja yritysjohtamisen erikoisammattitutkinto, Business College Helsinki (2020 - 2022) Johtajana toimiminen Henkilöstön ja osaamisen johtaminen Asiakkuuksien johtaminen </description>
+    </item>
+    
+    <item>
+      <title>Kyberturvallisuus</title>
+      <link>https://nakamura.fi/fi/page/cybersecurity/</link>
+      <pubDate>Mon, 01 Nov 2021 12:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/fi/page/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kielten oppiminen</title>
+      <link>https://nakamura.fi/fi/page/languagelearning/</link>
+      <pubDate>Mon, 01 Nov 2021 11:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/fi/page/languagelearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arkisto</title>
+      <link>https://nakamura.fi/fi/page/archive/</link>
+      <pubDate>Mon, 01 Nov 2021 09:17:56 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/fi/page/archive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

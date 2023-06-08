@@ -1,0 +1,45 @@
+[categories]
+other = "Kategoriat"
+
+[authors]
+other = "Kirjoittajat"
+
+[tags]
+other = "Tagit"
+
+[socialMedia]
+other = "Sosiaalinen media"
+
+[latestPosts]
+other = "Viimeisimmät artikkelit"
+
+[search]
+other = "Hae ..."
+
+[noSearchResults]
+other = "Ei tuloksia."
+
+[olderPosts]
+other = "Vanhemmat artikkelit"
+
+[newerPosts]
+other = "Uudemmat artikkelit"
+
+[continueReading]
+other = "Jatka lukemista"
+
+[otherLanguages]
+other = "Muut kielet"
+
+[readingTime]
+one = "Luettu minuutissa"
+other = "Luettu {{.Count}} minuutissa"
+
+[tableOfContents]
+other = "Sisällysluettelo"
+
+[series]
+other = "Sarjat"
+
+[archive]
+other = "Arkisto"

@@ -1,5 +1,5 @@
 ---
-title: "Esitys: Meriteollisuuden vastaus kasvaviin kyberuhkiin"
+title: "Esitys: Meriteollisuuden vastaus kasvaviin kyberuhkiin (Englanniksi)"
 date: 2023-04-14T16:23:40+01:00
 
 categories: ['Kyberturvallisuus']

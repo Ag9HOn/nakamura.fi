@@ -11,7 +11,7 @@ link: ""
 target: "_blank"
 ---
 
-Työskentelen tällä hetkellä Kyberturvallisuusjohtajana, omistautuen yrityksen tietoturvan parantamiseen. Minulla on vankka tekninen tausta ja ylempi ammattikorkeakoulututkinto Kyberturvallisuudesta sekä alempi ammattikorkeakoulututkinto tietoverkoista. Teknisestä osaamisestani huolimatta pidän itseäni ennen kaikkea ihmisläheisenä henkilönä. Intohimoni ei ole pelkästään teknologian ymmärtämiseen, vaan myös sen soveltaminen palvelemaan ihmisiä ja yhteiskuntaa turvallisesti ja luotettavasti.
+Työskentelen tällä hetkellä Kyberturvapäällikkönä, omistautuen yrityksen tietoturvan parantamiseen. Minulla on vankka tekninen tausta ja ylempi ammattikorkeakoulututkinto Kyberturvallisuudesta sekä alempi ammattikorkeakoulututkinto tietoverkoista. Teknisestä osaamisestani huolimatta pidän itseäni ennen kaikkea ihmisläheisenä henkilönä. Intohimoni ei ole pelkästään teknologian ymmärtämiseen, vaan myös sen soveltaminen palvelemaan ihmisiä ja yhteiskuntaa turvallisesti ja luotettavasti.
 
 Ammatillisten kiinnostuksen kohteideni lisäksi olen intohimoinen kielten oppija, joka täydentää kiinnostustani kansainvälisiin ympäristöihin. Itä-Aasia kiehtoo minua erityisesti ja pyrin ymmärtämään sen ainutlaatuisia haasteita ja mahdollisuuksia myös kyberturvallisuuteen liittyen.
 

@@ -25,7 +25,8 @@
       <pubDate>Fri, 14 Apr 2023 16:23:40 +0100</pubDate>
       
       <guid>https://nakamura.fi/fi/video/2023-04-14-maritime-cybersecurity-turkusec-presentation-2023-04-14/</guid>
-      <description>Minut kutsuttiin pitämään esitys TurkuSecissä uusista IMO:n ja IACS:n kyberturvallisuusvaatimuksista uusille laivoille. Tässä videossa selitän IMO/IACS-vaatimusten merkityksen, sekä miten luokituslaitokset luovat kyberturvallisuussääntöjä meriteollisuudelle.</description>
+      <description>Minut kutsuttiin pitämään esitys TurkuSecissä uusista IMO:n ja IACS:n kyberturvallisuusvaatimuksista uusille laivoille. Tässä videossa selitän IMO/IACS-vaatimusten merkityksen, sekä miten luokituslaitokset luovat kyberturvallisuussääntöjä meriteollisuudelle.
+Lue myös aiheesta kirjoittamani artikkeli ja tsekkaa TurkuSec nettisivuilta lisää tapahtumia.</description>
     </item>
     
     <item>
@@ -54,7 +55,7 @@ Taustaa Olen usein verrannut sähköpostia postikorttien lähettämiseen. Kirjoi
       
       <guid>https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</guid>
       <description>Vietin itsenäisyyspäivää seuraavan perjantain vapaalla, eikä minulla ilmeisesti ollut muuta tekemistä kuin opiskella SPF:ää, DKIM:ää ja DMARC:ia. Nämä ovat sähköpostin lähettäjien keinoja tarjota viestien autentikointia näiden lähettämille viesteille, jotta roskapostisuodattimet voivat havaita väärennösyritykset. SPF ja DKIM ovat hieman vanhempia ja vakiintuneempia,DMARC:in ollessa uudempi tapa julkaista domainin politiikka pohjautuen kahteen edelliseen. Yhdessä nämä menetelmät tarjoavat yrityksille keinoja suojata brändejään uhkatoimijoiden väärentämiltä sähköposteilta.
-Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla End-to-End Measurements of Email Spoofing Attacks.</description>
+Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla End-to-End Measurements of Email Spoofing Attacks .</description>
     </item>
     
   </channel>

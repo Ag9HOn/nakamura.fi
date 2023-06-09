@@ -223,13 +223,29 @@ Taustaa Olen usein verrannut sähköpostia postikorttien lähettämiseen. Kirjoi
 <p>Koska roskapostin ja phishingin ongelmat ovat yleistyneet, eri tahot ovat kehittäneet erilaisia menetelmiä sähköpostien tarkistamiseksi voidakseen arvioida, ovatko ne aitoja, ei-toivottuja, huijauksia vai suorastaan vaarallisia ja haitallisia. Tämä perustuu pitkälti arvailuun, mutta 2000-luvun alussa on nähty uusia, hitaasti jalansijaa saavuttavia,  tekniikoita tämän ongelman ratkaisemiseksi. Vastuu tarkistaa ja kunnioittaa lähettävän organisaation asettamia politiikkoja kuuluu täysin sähköpostin vastaanottajalle, mutta SPF, DKIM ja DMARC muodostavat yhdessä työkalupakin sähköpostijärjestelmien ylläpitäjille, jotka mahdollistavat sääntöjen julkaisun siitä, mistä he sallivat sähköpostin lähettämisen, miten he kryptografisesti todistavat, että viestit todella tulevat heidän järjestelmistään, sekä vastaanottaville järjestelmille ohjeiden lähettämisen viestien tarkistamiseksi, mitä tehdä viesteille, jotka eivät läpäise tarkastuksia, ja miten raportoida takaisin lähtöjärjestelmille vastaanotetuista viesteistä.</p>
 <h1 id="spf">SPF</h1>
 <p>SPF tulee sanoista &ldquo;Sender Policy Framework&rdquo; ja se on käytännössä tapa, jolla domainin ylläpitäjä voi julkaista luettelon Internet-osoitteista, jotka saavat lähettää sähköpostia domainin nimissä, sekä politiikan siitä, mitä tehdä luvattomista lähteistä tuleville viesteille. Jatkaaksemme postitoimistovertausta, yritys julkaisisi politiikan: &ldquo;yrityksemme lähettää kaiken postinsa tietyn postitoimiston kautta Helsingissä, olkaa hyvät ja hylätkää kaikki viestit, jotka eivät tule sieltä&rdquo;, vastaanottava postitoimisto tarkistaa sitten leiman postimerkissä ennen sen toimittamista vastaanottajalle, ja hylkää viestin, jos se ei ole leimattu valtuutetussa postitoimistossa.</p>
-<p>SPF julkaistiin <a href="https://tools.ietf.org/html/rfc4408">kokeellisena vuonna 2006</a> ja <a href="https://tools.ietf.org/html/rfc7208">ehdotettuna standardina vuonna 2014</a>. <a href="https://people.cs.vt.edu/gangwang/usenix-draft.pdf">Hang Hun ja Gang Wangin</a> Virginia Techista mukaan <a href="https://aws.amazon.com/alexa-top-sites/">Alexan</a> miljoonan suosituimman sivuston verkkotunnuksista 44,9%:lla oli voimassa olevat SPF-tietueet tammikuussa 2018 (40% vuonna 2015), ja tuhannen suosituimman sivuston osalta käyttöaste oli 73%. Hu:n ja Wangin mukaan 31 suurista 35 sähköpostipalvelun tarjoajasta, jotka testattiin heidän tutkimuksessaan, tukee SPF:ää ja <a href="https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html">Google raportoi</a>, että vuonna 2016 heidän näkemistään kaikista vastaanotetuista sähköposteista 95,7% oli suojattu SPF:llä. Näistä kolmesta tekniikasta SPF on siis laajimmin käytössä.</p>
+<p>SPF julkaistiin <a href="https://tools.ietf.org/html/rfc4408" target="_blank" >kokeellisena vuonna 2006</a>
+
+ ja <a href="https://tools.ietf.org/html/rfc7208" target="_blank" >ehdotettuna standardina vuonna 2014</a>
+
+. <a href="https://people.cs.vt.edu/gangwang/usenix-draft.pdf" target="_blank" >Hang Hun ja Gang Wangin</a>
+
+ Virginia Techista mukaan <a href="https://aws.amazon.com/alexa-top-sites/" target="_blank" >Alexan</a>
+
+ miljoonan suosituimman sivuston verkkotunnuksista 44,9%:lla oli voimassa olevat SPF-tietueet tammikuussa 2018 (40% vuonna 2015), ja tuhannen suosituimman sivuston osalta käyttöaste oli 73%. Hu:n ja Wangin mukaan 31 suurista 35 sähköpostipalvelun tarjoajasta, jotka testattiin heidän tutkimuksessaan, tukee SPF:ää ja <a href="https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html" target="_blank" >Google raportoi</a>
+
+, että vuonna 2016 heidän näkemistään kaikista vastaanotetuista sähköposteista 95,7% oli suojattu SPF:llä. Näistä kolmesta tekniikasta SPF on siis laajimmin käytössä.</p>
 <h1 id="dkim">DKIM</h1>
 <p>Vaikka SPF:ää käytetään määrittämään, mistä viesti saa tulla, &ldquo;Domain Key Identified Mail&rdquo;:ia, eli DKIM:iä, käytetään lähettäjän tunnistamiseen. Postitoimistoesimerkissä postipalvelua käyttävä yritys on julkaissut avaimen, jolla voidaan tarkistaa heidän lähettämiensä viestien allekirjoitukset. Työntekijä kirjoittaa viestin ja jättää sen yritykselle toimitettavaksi. Yritys ottaa viestin, allekirjoittaa sen, sekä liittää viestiin mukaan ohjeet siitä, mistä löytää avain allekirjoituksen tarkistamiseen. Viesti annetaan sitten valtuutetulle postitoimistolle, joka toimittaa sen vastaanottajalle toimituksesta vastaavalle postitoimistolle. Ennen toimitusta, vastaanottava postitoimisto löytää yrityksen allekirjoituksella varustetun viestin, etsii julkisen avaimen lähettävän yrityksen antamien ohjeiden mukaan ja tarkistaa allekirjoituksen. Jos allekirjoitus vastaa julkista avainta, vastaanottaja tietää, että viestin lähettäjällä oli yrityksen lupa lähettää viesti.</p>
-<p><a href="https://tools.ietf.org/html/rfc4871">Proposed Standard</a> DKIM:lle julkaistiin vuonna 2007 ja <a href="https://tools.ietf.org/html/rfc6376">Internet Standard</a> julkaistiin vuonna 2011. Google raportoi, että vuonna 2016 heidän näkemistään kaikista tulevista sähköposteista 87,6% oli DKIM-suojattuja, ja Hu ja Wang raportoivat, että 27 suurista 35 sähköpostipalvelun tarjoajasta heidän tutkimuksessaan tukee DKIM:ä.</p>
+<p><a href="https://tools.ietf.org/html/rfc4871" target="_blank" >Proposed Standard</a>
+
+ DKIM:lle julkaistiin vuonna 2007 ja <a href="https://tools.ietf.org/html/rfc6376" target="_blank" >Internet Standard</a>
+
+ julkaistiin vuonna 2011. Google raportoi, että vuonna 2016 heidän näkemistään kaikista tulevista sähköposteista 87,6% oli DKIM-suojattuja, ja Hu ja Wang raportoivat, että 27 suurista 35 sähköpostipalvelun tarjoajasta heidän tutkimuksessaan tukee DKIM:ä.</p>
 <h1 id="dmarc">DMARC</h1>
 <p>&ldquo;Domain-based Message Authentication, Reporting and Conformance&rdquo;, eli DMARC, on uusin kolmesta ja se luotiin SPF:n ja DKIM:n päälle, jotta lähettäjät voisivat julkaista politiikkoja koskien tunnistamattomien sähköpostien käsittelyä, sekä vastaanottaa raportteja vastaanottajilta sähköpostien autentikoinnista. Postitoimistoesimerkissä yritys julkaisee nyt myös politiikan, joka sanoo jotakin sen suuntaista kuin &ldquo;Käytämme SPF:ää ja DKIM:iä sähköpostiemme autentikointiin, vaadimme kaikkien lähtevien sähköpostien noudattavan SPF-politiikkaa ja olevan allekirjoitettu yrityksemme toimesta. Olkaa hyvät ja hylätkää kaikki viestit, jotka eivät täytä näitä vaatimuksia, ja lähettäkää raporttinne tähän osoitteeseen&rdquo;. Työntekijä toimittaa viestin yritykselle toimitettavaksi, yritys allekirjoittaa sen ja antaa sen valtuutetulle postitoimistolle, viesti toimitetaan vastaanottavalle postitoimistolle, joka ensin tarkistaa, onko lähettäjällä DMARC-politiikka, tarkistaa sitten, että viesti tuli vaaditulta postitoimistolta, tarkistaa, että viestin allekirjoitus vastaa yrityksen julkaisemaa julkista avainta, ja toimittaa viestin vastaanottajalle vasta kun kaikki vaatimukset on täytetty. Lopuksi vastaanottava postitoimisto kokoaa raportin kaikista sen vastaanottamista viesteistä ko. lähettäjältä ja toimittaa koontiraportin yrityksen määrittelemään osoitteeseen.</p>
-<p>DMARC:n luonnosmäärittelyä on ylläpidetty vuodesta 2012 lähtien ja <a href="https://tools.ietf.org/html/rfc7489">informatiivinen Request for Comments</a> julkaistiin vuonna 2015. Hu ja Wang raportoivat, että vuonna 2018 16 suurimmasta 35 sähköpostipalvelun tarjoajasta tukee DMARC:ia ja 5,1% miljoonasta verkkotunnuksesta on voimassaolevat DMARC-tietueet. Tuhannen suosituimman verkkotunnuksen kohdalla luku on huikea 41%, mikä on mielestäni erittäin hyvä luku ottaen huomioon kuinka uusi protokolla on sekä SPF:n 73% käyttöaste.</p>
+<p>DMARC:n luonnosmäärittelyä on ylläpidetty vuodesta 2012 lähtien ja <a href="https://tools.ietf.org/html/rfc7489" target="_blank" >informatiivinen Request for Comments</a>
+
+ julkaistiin vuonna 2015. Hu ja Wang raportoivat, että vuonna 2018 16 suurimmasta 35 sähköpostipalvelun tarjoajasta tukee DMARC:ia ja 5,1% miljoonasta verkkotunnuksesta on voimassaolevat DMARC-tietueet. Tuhannen suosituimman verkkotunnuksen kohdalla luku on huikea 41%, mikä on mielestäni erittäin hyvä luku ottaen huomioon kuinka uusi protokolla on sekä SPF:n 73% käyttöaste.</p>
 <h1 id="matalalla-roikkuvat-hedelmät">Matalalla roikkuvat hedelmät</h1>
 <p>SPF:n asettaminen on jo melko standardi toimenpide yritysten sähköpostiasetuksissa, olitpa sitten tekemässä asetuksiaä SAAS-palvelussa kuten O365 tai G Suite, tai perustamassa omaa sähköpostipalvelinta. Ensimmäisessä tapauksessa palveluntarjoaja antaa ohjeet SPF-tietueen luomiseen, joka domainin omistajan tulee luoda julkiseen nimipalveluun. Jälkimmäisessä ylläpitäjä tarvitsee lähettävän sähköpostipalvelimen julkisen IP-osoitteen DNS:ää varten. Jos sähköpostia lähettäviä palvelimia on useita, tämä aiheuttaa sen, että sähköpostin vastaanottajat hylkäävät joitakin sähköposteja, jos kaikkia käytössä olevia IP-osoitteita ei ole määritelty.</p>
 <p>DKIM:n kanssa täytyy luoda yksityinen/julkinen avainpari, julkaista julkinen avain ja käyttää yksityistä avainta lähtevän sähköpostin allekirjoittamiseen. Ylläpidetyn järjestelmän palveluntarjoaja tekee suurimman osan tästä työstä ja asiakkaan tulee vain julkaista julkinen avain, mutta itse ylläpidetyssä ratkaisussa ylläpitäjän tulee konfiguroida kaikki itse. DKIM ei kuitenkaan sisällä politiikkoja, joten sen asettaminen ei vaikuta muiden, allekirjoittamattomien, sähköpostien toimittamiseen, ennen kuin DMARC-tietue on asetettu.</p>
@@ -237,17 +253,39 @@ Taustaa Olen usein verrannut sähköpostia postikorttien lähettämiseen. Kirjoi
 <p>Jos verkkotunnusta ei ole tarkoitettu lähettämään sähköpostia lainkaan, on järkevää silti asettaa DMARC Reject -politiikka, jotta kukaan ei voi väärentää viestejä</p>
 <h1 id="lähteet-ja-viitattu-aineisto">Lähteet ja viitattu aineisto</h1>
 <ul>
-<li><a href="https://people.cs.vt.edu/gangwang/usenix-draft.pdf">https://people.cs.vt.edu/gangwang/usenix-draft.pdf</a></li>
-<li><a href="https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html">https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html</a></li>
-<li><a href="https://tools.ietf.org/html/rfc4408">https://tools.ietf.org/html/rfc4408</a></li>
-<li><a href="https://tools.ietf.org/html/rfc7208">https://tools.ietf.org/html/rfc7208</a></li>
-<li><a href="https://tools.ietf.org/html/rfc4871">https://tools.ietf.org/html/rfc4871</a></li>
-<li><a href="https://tools.ietf.org/html/rfc6376">https://tools.ietf.org/html/rfc6376</a></li>
-<li><a href="https://tools.ietf.org/html/rfc7489">https://tools.ietf.org/html/rfc7489</a></li>
-<li><a href="https://aws.amazon.com/alexa-top-sites/">https://aws.amazon.com/alexa-top-sites/</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework">https://en.wikipedia.org/wiki/Sender_Policy_Framework</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail">https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DMARC">https://en.wikipedia.org/wiki/DMARC</a></li>
+<li><a href="https://people.cs.vt.edu/gangwang/usenix-draft.pdf" target="_blank" >https://people.cs.vt.edu/gangwang/usenix-draft.pdf</a>
+
+</li>
+<li><a href="https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html" target="_blank" >https://security.googleblog.com/2013/12/internet-wide-efforts-to-fight-email.html</a>
+
+</li>
+<li><a href="https://tools.ietf.org/html/rfc4408" target="_blank" >https://tools.ietf.org/html/rfc4408</a>
+
+</li>
+<li><a href="https://tools.ietf.org/html/rfc7208" target="_blank" >https://tools.ietf.org/html/rfc7208</a>
+
+</li>
+<li><a href="https://tools.ietf.org/html/rfc4871" target="_blank" >https://tools.ietf.org/html/rfc4871</a>
+
+</li>
+<li><a href="https://tools.ietf.org/html/rfc6376" target="_blank" >https://tools.ietf.org/html/rfc6376</a>
+
+</li>
+<li><a href="https://tools.ietf.org/html/rfc7489" target="_blank" >https://tools.ietf.org/html/rfc7489</a>
+
+</li>
+<li><a href="https://aws.amazon.com/alexa-top-sites/" target="_blank" >https://aws.amazon.com/alexa-top-sites/</a>
+
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Sender_Policy_Framework" target="_blank" >https://en.wikipedia.org/wiki/Sender_Policy_Framework</a>
+
+</li>
+<li><a href="https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail" target="_blank" >https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail</a>
+
+</li>
+<li><a href="https://en.wikipedia.org/wiki/DMARC" target="_blank" >https://en.wikipedia.org/wiki/DMARC</a>
+
+</li>
 </ul>
 
     

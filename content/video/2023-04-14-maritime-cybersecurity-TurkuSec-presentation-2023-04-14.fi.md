@@ -13,3 +13,4 @@ youtube: "HA0pVLBU2IE"
 
 Minut kutsuttiin pitämään esitys TurkuSecissä uusista IMO:n ja IACS:n kyberturvallisuusvaatimuksista uusille laivoille. Tässä videossa selitän IMO/IACS-vaatimusten merkityksen, sekä miten luokituslaitokset luovat kyberturvallisuussääntöjä meriteollisuudelle.
 
+Lue myös [aiheesta kirjoittamani artikkeli]( {{< ref "article/2023-02-16-charting-a-course-to-cybersecurity/index.fi.md" >}}) ja tsekkaa [TurkuSec nettisivuilta](https://turkusec.fi/) lisää tapahtumia.

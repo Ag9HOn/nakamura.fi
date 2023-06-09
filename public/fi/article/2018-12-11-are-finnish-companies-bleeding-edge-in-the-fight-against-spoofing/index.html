@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+
+    
+
+    
+         
+    
+
+    
+
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://nakamura.fi/">
+    <meta name="author" content="Petteri Nakamura">
+    <meta name="description" content="Petteri Nakamura&#39;s personal website and blog">
+    <meta name="keywords" content="blog,cybersecurity,cyber,cyber security,language learning">
+    <meta name="generator" content="Hugo 0.113.0">
+    <title>
+        
+           
+               Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan? &vert; Petteri Nakamura
+           
+        
+    </title>
+    <meta itemprop="name" content="Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?">
+    <meta itemprop="description" content="Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan? - Petteri Nakamura&#39;s personal website and blog">
+    <meta property="og:site_name" content="Petteri Nakamura">
+
+    <meta property="og:title" content="Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?" />
+<meta property="og:description" content="Vietin itsenäisyyspäivää seuraavan perjantain vapaalla, eikä minulla ilmeisesti ollut muuta tekemistä kuin opiskella SPF:ää, DKIM:ää ja DMARC:ia. Nämä ovat sähköpostin lähettäjien keinoja tarjota viestien autentikointia näiden lähettämille viesteille, jotta roskapostisuodattimet voivat havaita väärennösyritykset. SPF ja DKIM ovat hieman vanhempia ja vakiintuneempia,DMARC:in ollessa uudempi tapa julkaista domainin politiikka pohjautuen kahteen edelliseen. Yhdessä nämä menetelmät tarjoavat yrityksille keinoja suojata brändejään uhkatoimijoiden väärentämiltä sähköposteilta.
+Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla End-to-End Measurements of Email Spoofing Attacks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/" /><meta property="og:image" content="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/featuredImage.jpg"/><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2018-12-11T19:28:11+03:00" />
+<meta property="article:modified_time" content="2018-12-11T19:28:11+03:00" />
+
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+
+
+    
+    <link rel="canonical" href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+    
+
+    <link rel="stylesheet" href="https://nakamura.fi/theme.css">
+
+    
+
+    
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav sticky">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/whoami/">Whoami</a></li>
+                
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/cv/">CV</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/kyberturvallisuus/" target="">Kyberturvallisuus</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/kielten-opiskelu/" target="">Kielten oppiminen</a></li>
+                
+            
+                
+                    <li><a href="/fi/archive/" target="">Arkisto</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header class="sticky">
+
+    <div class="container">
+        <div class="logo">
+            <a href="/fi" class="logo">
+                
+                    
+                    
+                        
+                    
+                    <img src="https://seccdn.libravatar.org/avatar/2cefd619033ccec36f3cc437d79053f1?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/fi">
+                    Petteri Nakamura
+                </a>
+            </h3>
+
+            
+        </div>
+
+        <div class="languages">
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">en</a>
+                
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/" class="active">fi</a>
+                
+            
+            </div>
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+            
+                <img src="/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/featuredImage_hu0cecd65e11892e5075d6c52c6adbe0e1_132547_700x350_fill_q95_box_smart1.jpg" alt="">
+            
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">
+            Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2018-12-11</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://nakamura.fi/fi/categories/kyberturvallisuus/">Kyberturvallisuus</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://nakamura.fi/fi/author/petteri-nakamura/">Petteri Nakamura</a>
+                
+            </span>
+        
+    </div>
+
+    
+        
+
+        <p>Vietin itsenäisyyspäivää seuraavan perjantain vapaalla, eikä minulla ilmeisesti ollut muuta tekemistä kuin opiskella SPF:ää, DKIM:ää ja DMARC:ia. Nämä ovat sähköpostin lähettäjien keinoja tarjota viestien autentikointia näiden lähettämille viesteille, jotta roskapostisuodattimet voivat havaita väärennösyritykset. SPF ja DKIM ovat hieman vanhempia ja vakiintuneempia,DMARC:in ollessa uudempi tapa julkaista domainin politiikka pohjautuen kahteen edelliseen. Yhdessä nämä menetelmät tarjoavat yrityksille keinoja suojata brändejään uhkatoimijoiden väärentämiltä sähköposteilta.</p>
+<p>Löysin mielenkiintoisen tutkimusartikkelin, jonka ovat kirjoittaneet Hang Hu ja Gang Wang Virginia Techistä, otsikolla <a href="https://people.cs.vt.edu/gangwang/usenix-draft.pdf">End-to-End Measurements of Email Spoofing Attacks</a>. Tutkijat totesivat, että SPF:n käyttöönottoaste 1000 suosituimmalla sivustolla Alexa-listalla oli vuoden 2018 alussa noin 73%, ja 31 suuresta 35 sähköpostipalvelun tarjoajasta, kuten gmail.com ja hotmail.com, käyttävät aktiivisesti SPF:ää roskapostin suodatuksessa. DMARC:in käyttöaste oli 41%, ja 16 35 sähköpostipalvelusta käytti sitä roskapostin suodatuksessa. Heidän tutkimuksensa osoittaa myös, että väärennettyjen sähköpostien määrä, jotka saavuttivat käyttäjien postilaatikot heidän testeissään, väheni merkittävästi, kun domainilla oli DMARC &ldquo;p=reject&rdquo; -käytäntö verrattuna domainiin, jolla oli käytössä vain SPF/DKIM, ja domainit, joilla ei ollut SPF, DKIM tai DMARC -autentikointia, väärennetyt sähköpostit saavuttivat lähes aina käyttäjien postilaatikot.</p>
+<p>Tämä sai minut miettimään, mikä käyttöönottoaste on suomalaisissa yrityksissä, joten päätin tehdä hieman tutkimusta. Keräsin listan <a href="https://fi.wikipedia.org/wiki/Luettelo_Helsingin_p%C3%B6rssiss%C3%A4_noteeratuista_yhti%C3%B6ist%C3%A4">Helsingin pörssiin listatuista yrityksistä Wikipediasta</a>, lisäsin muutamia, joihin minulla oli henkilökohtainen kiinnostus, ja ryhdyin luomaan luetteloa näiden yritysten käyttämistä domain-nimistä oletuksella, että yritykset käyttäisivät joko .fi tai .com päätason domainia. Pian minulla olikin tarkistettavana vahvistettu lista 134 yrityksestä, joilla oli yhteensä 257 domainia. En etsinyt kaikkia mahdollisia olemassa olevia domain-nimiä kultakin yritykseltä, vaan lisäsin vain ne, jotka olivat ilmeisiä selaimen uudelleenohjausten perusteella ja lisäsin enintään neljä lisädomainia, kun ne olivat helposti saatavilla yrityksen verkkosivuston etusivulta. Kaikkien domain-nimien pois jättäminen vääristää dataa hieman, mutta uskon sen olevan riittävä johtopäätösten tekemiseen. Seuraavaksi kirjoitin pienen skriptin, joka kysyy julkisia SPF- ja DMARC-tietueita näille domain-nimille ja keräsin tiedot excel-taulukkoon julkaistujen politiikoiden analysoimiseksi. Kaikki tiedot kerättiin 9. joulukuuta 2018.</p>
+<p>SPF-tietue ilmoittaa yleensä yhden kolmesta eri politiikasta; FAIL hylkää viestin, jos se ei läpäise SPF-tarkistusta, SOFTFAIL pyytää vastaanottajaa tekemään lisätarkistuksia, jos viesti ei läpäise SPF-tarkistusta, ja  NEUTRAL merkitsee ei julkaistua politiikkaa.</p>
+<p>DMARC-politiikka voi olla &ldquo;p=none&rdquo;, jota käytetään seurantaan, kun lähettävä domain ei ilmoita politiikkaa, mutta haluaa saada DMARC-raportit vastaanottajilta, &ldquo;p=quarantine&rdquo; pyytää vastaanottajaa merkitsemään viestin, joka ei läpäise DMARC:n määrittelemää autentikointia &ldquo;SPAM&rdquo; -merkinnällä ja &ldquo;p=reject&rdquo; pyytää vastaanottajaa hylkäämään viestin, joka ei läpäise autentikointia.</p>
+<p>Alla oleva ympyräkaavio havainnollistaa SPF:n ja DMARC:n käyttöä näissä 257 domainissa. Punainen väri sisältää domainit, joilla ei ole julkaistuja SPF tai DMARC-tietueita tai joilla on &ldquo;NEUTRAL&rdquo; SPF-politiikka. Keltainen väri sisältää domainit, joilla on SPF FAIL tai SOFT FAIL -politiikka, mutta ei DMARC-tietueita, vaaleanvihreä väri sisältää domainit, joilla on SPF-tietue ja DMARC-seurantapolitiikka, joka mahdollistaa ylläpitäjien saada yhteenvetoraportteja DMARC-protokollan kautta, ja vihreä väri sisältää domainit, jotka ovat määritelleet &ldquo;p=quarantine&rdquo; tai &ldquo;p=reject&rdquo; -politiikat.</p>
+<p><img src="dmarc01.png" alt="alt text"></p>
+<p>Tämä viittaa siihen, että:</p>
+<ul>
+<li>34% tarkistetuista domain-nimistä ei ole autentikointia käytössä, jolla rajoittaa väärennettyjen sähköpostien lähetystä domainin nimissä,</li>
+<li>47% luottaa ainoastaan SPF FAIL tai SOFT FAIL -politiikkoihin,</li>
+<li>12% on DMARC:n käyttöönotto menossa ja ne ovat asettaneet DMARC-seurannan &ldquo;p=none&rdquo; -politiikalla,</li>
+<li>7% on julkaissut &ldquo;p=quarantine&rdquo; tai &ldquo;p=reject&rdquo; -politiikan.</li>
+</ul>
+<p>Kiinnostuneille minulla on myös yksityiskohtaisempi ympyräkaavio, jossa on eritelty käytössä olevat SPF- ja DMARC-tilat.</p>
+<p><img src="dmarc02.png" alt="alt text"></p>
+<p>Yllä olevat kaaviot sisältävät kaikki domainit yhtenä datamassana, mutta ne eivät liitä dataa tiettyihin yrityksiin. Jokaisella yrityksellä on enintään viisi domainia listassa ja jokaisella domainilla on omat domain-kohtaiset SPF ja DMARC-politiikkansa. Alla olen jakanut yritykset kuuteen ryhmään ja nostan muutamia yrityksiä, joiden asetukset ovat erityisen hyvällä mallilla mutta en julkaise koko listaa. Tämä on kaikki helposti saatavilla olevaa julkista tietoa, mutta tehköön script-kiddiet hieman töitä, jos he haluavat löytää helpot phishing-kohteet.</p>
+<p><strong>DMARC käytössä kaikilla tarkistetuilla domaineilla</strong></p>
+<p>8% yrityksistä on ottanut käyttöön DMARC:n kaikissa tarkistetuissa domaineissaan. Näihin kuuluvat esimerkiksi Danske Bank, Handelsbanken, Nordea, Outokumpu, Wärtsilä ja YIT.</p>
+<p>Nämä yritykset ovat selvästi edelläkävijöitä taistelussaan roskapostia vastaan ja heillä on kattavat järjestelyt kaikkien domainiensa suojelemiseksi huijausviesteiltä. Pidin erityisesti siitä, miten Danske Bank, Outokumpu ja Wärtsilä ovat järjestäneet DMARC-tietueensa luomalla omat alidomainit DMARC:lle ja sitten tekemällä domainkohtaiset _dmarc  CNAME-tietueet ja osoittamalla ne yhteen yhteiseen DMARC-tietueeseen. Erittäin tyylikäs ja helppo ylläpitää!</p>
+<p>Danske Bank oli myös ainoa listassa, jolla kaikki tarkistetut verkkotunnukset olivat &ldquo;p=reject; aspf=s; adkim=s&rdquo; -tilassa, mikä tarkoittaa tiukkaa SPF- ja DKIM-käytäntöä, jossa kaikki viestit, jotka eivät ole linjassa, hylätään tiukasti. Hattua nostan!</p>
+<p><strong>DMARC käytössä, mutta myös domaineja, joissa on vain SPF käytössä</strong></p>
+<p>7% osuudella näillä yrityksillä näyttää olevan DMARC käytössä päädomainilla, jota he käyttävät sähköpostitoimintaansa. Se on yleensä raportointitilassa, mutta muuten yritys nojaa SPF-käytäntöihin muissa verkkotunnuksissaan. Nämä yritykset selvästi testaavat DMARC:ia ja suunnittelevat sen käyttöönottoa.</p>
+<p><strong>DMARC käytössä, mutta myös verkkotunnuksia ilman käytäntöjä</strong></p>
+<p>11% osuudella näillä yrityksillä on DMARC asetettuna pääverkkotunnukselleen, mutta ne näyttävät unohtaneen suojata loput verkkotunnuksistaan. Joskus yritys käyttää pääasiassa yritys.com-osoitettaan, mutta ei suojaa yritys.fi-osoitetta, mikä tekee mahdolliseksi helposti väärentää @yritys.fi-osoite. Tähän kategoriaan sisältyy suuria kansainvälisiä teknologiayrityksiä.</p>
+<p><strong>Vain SPF käytössä kaikissa tarkistetuissa verkkotunnuksissa</strong></p>
+<p>37% yrityksistä on ottanut käyttöön SPF-tietueet kaikissa tarkistetuissa verkkotunnuksissaan, mutta ei näytä vielä aloittaneen DMARC:n testaamista. Yllättäen tähän luetteloon kuuluu myös yksi tai kaksi tietoturva-alan yritystä!</p>
+<p><strong>SPF käytössä, mutta myös verkkotunnuksia ilman käytäntöjä</strong></p>
+<p>20% yrityksistä nojaa myös SPF-tietueisiin, mutta heillä on myös verkkotunnuksia, ilman minkäänlaisia asetuksia. Todennäköisesti asetukset on unohdettu laittaa kuntoon domaineille, joita ei käytetä sähköpostin lähettämiseen tai vastaanottamiseen, mikä tekee näistä verkkotunnuksista haavoittuvia väärennöksille. Tähän luetteloon kuuluu myös pari yllättävää IT-yritystä.</p>
+<p><strong>Ei DMARC:ia tai SPF:ää käytössä missään tarkistetuissa verkkotunnuksissa</strong></p>
+<p>17% yrityksistä ei ole asettanut SPF- tai DMARC-tietueita millekään tarkistetuista verkkotunnuksistaan, tai oli asettanut SPF-tietueet NEUTRAL-tilaan, mikä on käytännössä ilmoitus käytännön puuttumisesta. Tähän luetteloon kuuluu joitakin suuria kansainvälisiä yrityksiä, joiden odottaisin olevan tietoisia phishing- ja spoofing-ongelmista, joten SPF- tai DMARC-tietueiden täydellinen puuttuminen on minusta erikoista.</p>
+<p><img src="dmarc02.png" alt="alt text"></p>
+<p><strong>Mitä tästä jäi käteen?</strong></p>
+<p>Työtä on paljon!</p>
+<p>Yhdenmukaisuuden tarve on pääasiallinen johtopäätös. 52% yrityksistä käyttää jonkinlaista sähköpostin tunnistusta kaikilla verkkotunnuksillaan, joista vain 8% on todella edelläkävijöitä, jotka ovat ottaneet DMARC:n käyttöön yhdenmukaisesti muussa kuin raportointitilassa kaikilla verkkotunnuksillaan, toinen 7% on hyvää vauhtia menossa samaan suuntaan, ja loput 37% eivät ole vielä aloittaneet DMARC:n käyttöönottoa. 31% tarvitsee inventaarion domaineistaan ja projektin asetusten saattamiseksi yhdenmukaisiksi, sillä heillä on DMARC ja/tai SPF asetettuna päädomainilla, mutta ei muilla, ja 17% täytyy alkaa pikaisesti tutkia aihetta, sillä heillä ei ole minkäänlaisia politiikoita edes päädomainillaan ja he luottavat yksin vastaanottavien järjestelmien arvailuihin väärennösten tunnistamisessa.</p>
+<p>Toinen asia, mitä jäi käteen, on tyylikäs tapa, jota Danske Bank, Outokumpu ja Wärtsilä käyttävät, yhdistää DMARC-käytännöt yhteen tietueeseen ja osoittaa siihen CNAME-tietueilla.</p>
+<p>Oma vetoomukseni on, että teemme työtä saadaksemme nämä ympyrädiagrammit täysin vihreiksi. Laitan nämä opit korvan taakse asettaessani autentikointia omille sähköposteilleni, mutta ymmärrän, että DMARC:n käyttöönotto laajassa infrastruktuurissa voi olla haastava projekti. Kuitenkin DMARC-raportointi tarjoaa loistavan työkalun järjestelmän tilan seurantaan ja mahdollistaa lähes välittömän palautteen muutosten vaikutuksista, mahdollistaen tiukkojen &ldquo;p=reject&rdquo; -käytäntöjen käyttöönoton. Tämä lopullinen tavoite varmasti tekee asianmukaisten domainien väärentämisen vaikeammaksi hyökkääjille, kun nämä tekniikat tulevat yleisempään käyttöön, ja auttavat yrityksiä suojaamaan brändinsä väärentämistä väärentämiseltä.</p>
+
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dmarc/">DMARC</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/dkim/">DKIM</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/spf/">SPF</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/s%C3%A4hk%C3%B6posti/">Sähköposti</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://nakamura.fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">en</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Viimeisimmät artikkelit</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/gallery/2023-05-15-rewiew-of-a-month-studying-chinese-in-taipei/">Katsaus kuukauden mittaiseen kiinan kielen opiskeluun Taipeissa</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/video/2023-04-14-maritime-cybersecurity-turkusec-presentation-2023-04-14/">Esitys: Meriteollisuuden vastaus kasvaviin kyberuhkiin (Englanniksi)</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2023-02-16-charting-a-course-to-cybersecurity/">Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/">D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://nakamura.fi/fi/categories/"><strong>Kategoriat</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/kyberturvallisuus/">Kyberturvallisuus (4)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/kielten-opiskelu/">Kielten opiskelu (1)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Sosiaalinen media</strong>
+                
+                <a href="https://www.linkedin.com/in/petterinakamura" target="_blank" rel=""><em class="fab fa-linkedin"></em></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Muut kielet</strong>
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">en</a>
+                        
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/" class="active">fi</a>
+                        
+                    
+                </div>
+            
+
+            
+            <div class="archive">
+                
+                <a href="https://nakamura.fi/fi/archive/"><strong>Arkisto</strong></a>
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://www.linkedin.com/in/petterinakamura" target="_blank">
+                &copy;
+                
+                2023
+                
+                by Petteri Nakamura
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VCWVGF572"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2VCWVGF572', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <script src="https://nakamura.fi/theme.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

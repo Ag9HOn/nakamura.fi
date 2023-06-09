@@ -9,20 +9,20 @@
     <lastBuildDate>Wed, 09 Jan 2019 19:28:11 +0300</lastBuildDate><atom:link href="https://nakamura.fi/tags/spf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>D.. What? SPF, DKIM, and DMARC; What Exactly Are They</title>
-      <link>https://nakamura.fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/</link>
+      <link>https://nakamura.fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/</link>
       <pubDate>Wed, 09 Jan 2019 19:28:11 +0300</pubDate>
       
-      <guid>https://nakamura.fi/article/d-what-spf-dkim-and-dmarc-what-exactly-are-they/</guid>
+      <guid>https://nakamura.fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/</guid>
       <description>IT is wrought with acronyms and e-mail is no exception. In this post, I will explain how these three help battle spam and other malicious emails, that we all get every day. All of these work behind the scenes and are not visible to the end users of e-mail services, if they don&amp;rsquo;t go looking for them specifically.
 Some Background I have often likened e-mail to sending post cards. You write your message on a piece of hard paper, add the recipient address, sign your name, and off it goes.</description>
     </item>
     
     <item>
       <title>Are Finnish Companies Bleeding Edge in the Fight Against Spoofing</title>
-      <link>https://nakamura.fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</link>
+      <link>https://nakamura.fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</link>
       <pubDate>Tue, 11 Dec 2018 19:28:11 +0300</pubDate>
       
-      <guid>https://nakamura.fi/article/are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</guid>
+      <guid>https://nakamura.fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</guid>
       <description>I took the Friday after the independence day free and apparently I didn&amp;rsquo;t have anything else to do, except to study SPF, DKIM, and DMARC. These are methods for senders to provide authentication for the sent emails to aid spam filters in detecting spoof attempts, with SPF and DKIM being a little bit older and more established, and DMARC being a newer method for communicating policy, building on the foundation of the other two.</description>
     </item>
     

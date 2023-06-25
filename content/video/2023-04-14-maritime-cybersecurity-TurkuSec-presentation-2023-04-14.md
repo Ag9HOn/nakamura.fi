@@ -2,7 +2,7 @@
 title: "The Maritime Industry's Response to Growing Threats Presentation"
 date: 2023-04-14T16:23:40+01:00
 
-categories: ['Cybersecurity']
+categories: ['IT and Cybersecurity']
 Tags: ['Video', 'Cybersecurity', 'Regulation']
 author: "Petteri Nakamura"
 

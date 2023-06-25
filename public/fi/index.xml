@@ -5,10 +5,19 @@
     <description>Recent content on Petteri Nakamura</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi</language>
-    <lastBuildDate>Tue, 06 Jun 2023 21:39:03 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2023 15:28:11 +0300</lastBuildDate>
     
         <atom:link href="https://nakamura.fi/fi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT-ympäristön pystyttäminen ja ylläpito Kiinassa</title>
+      <link>https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</link>
+      <pubDate>Sun, 25 Jun 2023 15:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</guid>
+      <description>&lt;p&gt;Viimeisen kuuden ja puolen vuoden aikana olen toiminut useassa eri IT-tehtävissä yrityksessä, jolla on toimisto Kiinassa. Verkko- ja palvelinylläpitäjänä, IT-palvelupäällikkönä ja kyberturvallisuuspäällikkönä  olen saanut ainutlaatuista näkemystä siitä, millaista on ylläpitää ja kehittää IT-ympäristössä Kiinassa. Vaikka monet suomalaiset yritykset toimivat Kiinassa ja on yleisesti tiedossa, että toimintaympäristö maassa on hyvin erilainen kuin Suomessa, en henkilökohtaisesti ole tavannut montaa IT-ammattilaista, jolla on kokemusta ja näkemykstä työskentelystä kiinalaisten kollegoiden kanssa tai IT-ympäristön rakentamisesta, ylläpitämisestä ja kehittämisestä osana suomalaista tai muuta eurooppalaista yritystä Kiinassa. Siksi päätin kirjoittaa aiheesta blogikirjoituksen jakaakseni ajatuksiani suomalaisen IT-ammattilaisen näkökulmasta.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Katsaus kuukauden mittaiseen kiinan kielen opiskeluun Taipeissa</title>

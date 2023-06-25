@@ -2,7 +2,7 @@
 title: "Are Finnish Companies Bleeding Edge in the Fight Against Spoofing"
 date: 2018-12-11T19:28:11+03:00
 
-categories: ["Cybersecurity"]
+categories: ["IT and Cybersecurity"]
 tags: ["DMARC", "DKIM", "SPF", "Email",]
 toc: false
 author: "Petteri Nakamura"

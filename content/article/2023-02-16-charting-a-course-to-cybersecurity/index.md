@@ -2,7 +2,7 @@
 title: "Charting a Course to Cybersecurity: The Maritime Industry's Response to Growing Threats"
 date: 2023-02-16T19:28:11+03:00
 
-categories: ["Cybersecurity"]
+categories: ["IT and Cybersecurity"]
 tags: ["Cybersecurity", "Regulation", "Maritime Cybersecurity"]
 toc: false
 author: "Petteri Nakamura"

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+
+    
+
+    
+         
+    
+
+    
+
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://nakamura.fi/">
+    <meta name="author" content="Petteri Nakamura">
+    <meta name="description" content="Petteri Nakamura&#39;s personal website and blog">
+    <meta name="keywords" content="blog,cybersecurity,cyber,cyber security,IT, IT Service Management,language learning">
+    <meta name="generator" content="Hugo 0.113.0">
+    <title>
+        
+           
+               IT-ympäristön pystyttäminen ja ylläpito Kiinassa &vert; Petteri Nakamura
+           
+        
+    </title>
+    <meta itemprop="name" content="IT-ympäristön pystyttäminen ja ylläpito Kiinassa">
+    <meta itemprop="description" content="IT-ympäristön pystyttäminen ja ylläpito Kiinassa - Petteri Nakamura&#39;s personal website and blog">
+    <meta property="og:site_name" content="Petteri Nakamura">
+
+    <meta property="og:title" content="IT-ympäristön pystyttäminen ja ylläpito Kiinassa" />
+<meta property="og:description" content="Viimeisen kuuden ja puolen vuoden aikana olen toiminut useassa eri IT-tehtävissä yrityksessä, jolla on toimisto Kiinassa. Verkko- ja palvelinylläpitäjänä, IT-palvelupäällikkönä ja kyberturvallisuuspäällikkönä  olen saanut ainutlaatuista näkemystä siitä, millaista on ylläpitää ja kehittää IT-ympäristössä Kiinassa. Vaikka monet suomalaiset yritykset toimivat Kiinassa ja on yleisesti tiedossa, että toimintaympäristö maassa on hyvin erilainen kuin Suomessa, en henkilökohtaisesti ole tavannut montaa IT-ammattilaista, jolla on kokemusta ja näkemykstä työskentelystä kiinalaisten kollegoiden kanssa tai IT-ympäristön rakentamisesta, ylläpitämisestä ja kehittämisestä osana suomalaista tai muuta eurooppalaista yritystä Kiinassa. Siksi päätin kirjoittaa aiheesta blogikirjoituksen jakaakseni ajatuksiani suomalaisen IT-ammattilaisen näkökulmasta." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/" /><meta property="og:image" content="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/featuredImage.png"/><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2023-06-25T15:28:11+03:00" />
+<meta property="article:modified_time" content="2023-06-25T15:28:11+03:00" />
+
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+
+
+    
+    <link rel="canonical" href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">
+    
+
+    <link rel="stylesheet" href="https://nakamura.fi/theme.css">
+
+    
+
+    
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav sticky">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/whoami/">Whoami</a></li>
+                
+            
+                
+                    <li><a href="https://nakamura.fi/fi/page/cv/">CV</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/it-ja-kyberturvallisuus/" target="">IT ja kyberturvallisuus</a></li>
+                
+            
+                
+                    <li><a href="/fi/categories/kielten-opiskelu/" target="">Kielten oppiminen</a></li>
+                
+            
+                
+                    <li><a href="/fi/archive/" target="">Arkisto</a></li>
+                
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header class="sticky">
+
+    <div class="container">
+        <div class="logo">
+            <a href="/fi" class="logo">
+                
+                    
+                    
+                        
+                    
+                    <img src="https://seccdn.libravatar.org/avatar/2cefd619033ccec36f3cc437d79053f1?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/fi">
+                    Petteri Nakamura
+                </a>
+            </h3>
+
+            
+        </div>
+
+        <div class="languages">
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">en</a>
+                
+            
+                
+                
+                  
+                
+
+                
+                    <a href="/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/" class="active">fi</a>
+                
+            
+            </div>
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">
+            
+                <img src="/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/featuredImage_hu68b411cc1e07d9aaddf76096c60472d7_1756775_700x350_fill_q95_box_smart1_3.png" alt="">
+            
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">
+            IT-ympäristön pystyttäminen ja ylläpito Kiinassa
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-06-25</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://nakamura.fi/fi/categories/it-ja-kyberturvallisuus/">IT ja Kyberturvallisuus</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://nakamura.fi/fi/author/petteri-nakamura/">Petteri Nakamura</a>
+                
+            </span>
+        
+    </div>
+
+    
+        
+            <h2>Sisällysluettelo</h2>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mitä-tietää-ennen-ympäristön-suunnittelua">Mitä tietää ennen ympäristön suunnittelua?</a>
+      <ul>
+        <li><a href="#teknologia">Teknologia</a>
+          <ul>
+            <li><a href="#suuri-palomuuri">Suuri palomuuri</a></li>
+            <li><a href="#pilvipalvelut">Pilvipalvelut</a></li>
+            <li><a href="#laitteiden-hankinta">Laitteiden hankinta</a></li>
+          </ul>
+        </li>
+        <li><a href="#prosessit">Prosessit</a>
+          <ul>
+            <li><a href="#lainsäädäntö-eussa-ja-kiinassa">Lainsäädäntö EU:ssa ja Kiinassa</a></li>
+            <li><a href="#yrityksen-käytännöt">Yrityksen käytännöt</a></li>
+          </ul>
+        </li>
+        <li><a href="#ihmiset">Ihmiset</a>
+          <ul>
+            <li><a href="#työvälineet">Työvälineet</a></li>
+            <li><a href="#viestintä">Viestintä</a></li>
+            <li><a href="#kielimuuri">Kielimuuri</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#johtopäätökset">Johtopäätökset</a></li>
+  </ul>
+</nav>
+        
+
+        <p>Viimeisen kuuden ja puolen vuoden aikana olen toiminut useassa eri IT-tehtävissä yrityksessä, jolla on toimisto Kiinassa. Verkko- ja palvelinylläpitäjänä, IT-palvelupäällikkönä ja kyberturvallisuuspäällikkönä  olen saanut ainutlaatuista näkemystä siitä, millaista on ylläpitää ja kehittää IT-ympäristössä Kiinassa. Vaikka monet suomalaiset yritykset toimivat Kiinassa ja on yleisesti tiedossa, että toimintaympäristö maassa on hyvin erilainen kuin Suomessa, en henkilökohtaisesti ole tavannut montaa IT-ammattilaista, jolla on kokemusta ja näkemykstä työskentelystä kiinalaisten kollegoiden kanssa tai IT-ympäristön rakentamisesta, ylläpitämisestä ja kehittämisestä osana suomalaista tai muuta eurooppalaista yritystä Kiinassa. Siksi päätin kirjoittaa aiheesta blogikirjoituksen jakaakseni ajatuksiani suomalaisen IT-ammattilaisen näkökulmasta.</p>
+<p>Teknologia on pääosin samanlaista kaikkialla, mutta suurin osa asioista, joita haluan nostaa esiin, liittyvät enemmänkin kulttuurieroihin kuin tekniikkaan, vaikka tosin kulttuurierotkin aiheuttavat teknisiä haasteita, kuten esimerkiksi niin sanotun &ldquo;Kiinan suuren palomuurin&rdquo; muodossa. Muita ympäristöä suunnitellessa huomioonotettavia seikkoja Kiinassa toimittaessa ovat sensuuria, henkilötietojen siirtoa ja keräämistä, kyberturvallisuutta ja vakoilua koskevat säädökset ja lait, jotka vaikuttavat ympäristön arkkitehtuuriin.</p>
+<h1 id="mitä-tietää-ennen-ympäristön-suunnittelua">Mitä tietää ennen ympäristön suunnittelua?</h1>
+<p>IT-ympäristön rakentaminen on pohjimmiltaan teknologian pystyttämistä tukemaan ihmisten suorittamia prosesseja liiketoiminnan pyörittämiseksi. Vaikka IT-ympäristön perustaminen missä tahansa, ei vain Kiinassa, saattaa vaikuttaa siltä, että kyse on vain verkkolaitteiden ja tietokoneiden hankinnasta, niiden asentamisesta paikalleen, käyttöjärjestelmien asentamisesta ja perusverkkopalveluiden määrittämisestä, ennen ympäristön suunnittelua on hyödyllistä ymmärtää nämä kolme ympäristöön vaikuttaa keskenään riippuvaista aspektia. Kuka ympäristöä käyttää ja ylläpitää? Mitä he ympäristöllä tekevät ja miten he tulevat ylläpitämään sitä? Ja lopuksi, mitä laitteita ympäristössä tulee olla ja miten ne täytyy konfiguroida? Liiketoimintaprosessit saattavat olla samat tai samankaltaiset kuin yrityksen muissakin toimipaikoissa, mutta säädökset voivat asettaa niille omat vaatimuksensa, kun otetaan huomioon, mitä tietoja voidaan tai ei voida tallentaa tai lähettää minnekin, mitä asioita ihmiset arvostavat tai miten he suhtautuvat eri asioihin eri kulttuureissa, sekä teknologiat, joita voidaan käyttää missäkin toimipisteessä. Hyvänä esimerkkinä viimeisestä voidaan käyttää Google-palveluiden toimimattomuutta Kiinassa, joten yrityksen, joka käyttää paljon Googlen pilvipalveluita, olisi harkittava lähestymistapansa uusiksi Kiinassa.</p>
+<h2 id="teknologia">Teknologia</h2>
+<p>Teknologia on kyse laitteista, tietokoneista, pilvipalveluista ja kommunikaatioyhteyksistä, joita ympäristö tarvitsee liiketoiminnan mahdollistamiseksi. Verkkolaitteet, palvelimet, tietokoneet, verkkoprotokollat jne. ovat samanlaisia kaikkialla, mutta Kiinan erityispiirre on valtion hyvin kontrolloiva suhtautuminen internettiin ja sen palveluihin. Kiinaan IT-ympäristöä perustavalle ulkomaiselle yritykselle tämän kontrollin merkittävin ilmentymä on niin sanottu &ldquo;Suuri palomuuri&rdquo;, vaikkakin myös muita huomioonotettavia asioita löytyy.</p>
+<h3 id="suuri-palomuuri">Suuri palomuuri</h3>
+<p>Kun ajatellaan IT-ympäristö rakentamista Kiinassa, ensimmäisenä mieleen saattaa tulla niin sanottu &ldquo;suuri palomuuri&rdquo;. Termi &ldquo;suuri palomuuri&rdquo; on kuitenkin harhaanjohtava, koska kyse ei itse asiassa ole erillisestä palomuurijärjestelmästä Kiinan Internetin rajalla, joka valvoo sisääntulevia ja lähteviä paketteja, vaan pikemminkin joukko sääntelyyn ja teknisiin keinoihin perustuvia tapoja sensuroida ja rajoittaa viestintää manner-Kiinan ja muun maailman välillä. Kiinassa on kolme valtion omistamaa teleoperaattoria, jotka hallitsevat maan tietoliikennemarkkinaa: China Telecom, China Unicom ja China Mobile. Valtio myös hallitsee yhteyspisteitä, joiden kautta manner-Kiinan internet yhdistyy maailmanlaajuiseen internetiin. Valtio määrittelee teleoperaattoreille ja muille internet-toimijoille vaatimukset sisällön ja liikenteen sensuroinnista ja valvonnasta ja teleoperaattorit ovat vastuussa pääsyn estämisestä kielletyille sivustoille ja palveluihin. Teleoperaattorit käyttävät velvollisuuksiensa täyttämiseen erilaisia tekniikoita, kuten IP-osoitteiden blokkaamista, DNS-myrkytystä, TCP-reset-hyökkäyksiä, syvän pakettien analysointia, väärennettyjä SSL-juurisertifikaatteja, sekä sovellusten latausten estämistä. Operaattoreiden  suorituskyky ei kuitenkaan ole tasalaatuista, todennäköisesti erilaisten toteutustapojen vuoksi, ja vaikka nämä tekniikat, latenssiin yhdeistettynä, usein tekevät jopa sallituista ulkomaisista palveluista hitaita käyttää Kiinassa, jotkut ISP:t häiritsevät sallittua liikennettä paljon enemmän kuin toiset. Esimerkiksi O365-palveluita ei ole estetty Kiinassa, mutta henkilökohtaisen kokemukseni mukaan, kaikkia kolmea operaattoria testattuani, palvelut näyttävä toimivan parhaiten China Unicomin yhteyksissä, kun taas China Telecomin verkossa jotkin palvelut ovat lähes käyttökelvottomia.</p>
+<p>Suuri palomuuri estää pääsyn useimpiin palveluihin, joita suomalaiset tai muut eurooppalaiset käyttäjät ovat tottuneet käyttämään, kuten Googlen-palvelut, mukaanlukien Google-haku, Gmail, YouTube ja Google Maps, Facebook, Twitter, Signal, WhatsApp, ja useimmat tunnetut uutissivustot. Kiinalaiset käyttäjät eivät kuitenkaan  usein edes huomaa ongelmia, koska he ovat tottuneet käyttämään kiinalaisia vastineita, kuten Bilibiliä videoihin, WeChatiä pikaviestintään ja Weiboa twiittaamiseen. Suuri palomuuri on myös auttanut Kiinalaisia teknologiayrityksiä kasvamaan ilman länsimaisia kilpailijoita antaen samalla Kiinan kommunistiselle puolueelle vahvan kontrollin maassa toimivista teknologiayrityksistä, jotka tarjoavat lähes kaikki sosiaalisen median ja muut internetpalvelut. Toisaalta jotkut sivustot ja palvelut Kiinassa ovat estettyjä maan ulkopuolelta, esimerkiksi pääsy julkisiin tietokantoihin, jotka tarjoavat taloudellista tietoa kiinalaisista yrityksistä due diligence -firmoille, estettiin Kiinan ulkopuolelta vuonna 2023. Lisäksi, jos yritys tai yksityishenkilö haluaa perustaa verkkosivuston tai muun verkkopalvelun Kiinassa, tämän on rekisteröitävä sivusto viranomaisille, tai teleoperaattori estää yhteydenotot ko. porttiin.</p>
+<p>VPN-palvelujen tarjoaminen Kiinassa on sallittua, jos palvelu on rekisteröity, ja ilmeisesti tämä edellyttää liikenteen rajoitusten käyttöönottoa ja lokien toimittamista viranomaisille pyydettäessä. OpenSSL- ja IPsec-yhteydet toimipisteiden välillä toimivat yleensä, mutta nopeudet voivat pudota ilman havaittavaa syytä tai yhteydet voivat ajoittain lakata kokonaan toimimasta. Olen itse joskus seurannut, kun IPsec-tunneli ei pystynyt muodostamaan yhteyttä kuukausiin, koska IKE-paketit putosivat pois matkalla, mikä esti tunnelin muodostumisen.</p>
+<p>Kiinan toimiston ja Kiinan ulkopuolisten palveluiden välisen hteyden laatu tulee testata jokaisella saatavilla olevalla operaattorilla ennen operaattorin valintaa, ja yrityksen kannattaa harkita myös SD-WAN-ratkaisua käytten useampaa operaattoria. Jos yritys tarvitsee luotettavan yhteyden Kiinan ympäristön ja Kiinan ulkopuolisen infrastruktuurin välille, kuten useimmat tarvitsevat, yrityksen kannattaa harkita myös MPLS:ää vaihtoehtona. Vaikka MPLS-yhteys onkin kallis, se tarjoaa luotettavimman yksityisen yhteyden, joka ei kulje julkisen internetin kautta. MPLS:än kanssa kannattaa kuitenkin muistaa, ettei se ole salattu, ja tämä &ldquo;yksityinen&rdquo; linja kulkee useiden eri maiden ja operaattoreiden järjestelmien läpi, joilla kaikilla on näkyvyys putkessa kulkevaan liikenteeseen, ellei liikennettä erikseen salata.</p>
+<h3 id="pilvipalvelut">Pilvipalvelut</h3>
+<p>Kuten aiemmin mainittu, monet muualla käytetyt pilvipalvelut onestetty Kiinassa. Esimerkiksi Googlen tapauksessa esto johtuu Googlen kieltäytymisestä sensuroida sisältöä ja hakutuloksia Kiinan viranomaisten mieleisesti ja Google päätti lopettaa toimintansa maassa. Muilla Yhdysvaltalaisilla teknologiayrityksillä on toimintaa Kiinassa, kuten Apple ja Microsoft, joista jälkimmäinen on lisensoinut O365-palvelunsa kiinalaiselle yritykselle nimeltä 21Vianet, mutta kyseessä on erillinen O365-instanssi, joka ei ole yhteensopiva Kiinan ulkopuolisen version kanssa. Kiinassa toimivien yritysten on mukauduttava sensuurivaatimuksiin ja tiedonjakamiseen viranomaisten kanssa, mutta näidenkään suhteen ei ole järkevää olettaa, että näiden palvelut ovat yhä sallittuja Kiinassa seuraavien 5, 10 tai 15 vuoden kuluttua, varsinkin kun Kiinan hallitus pyrkii jatkuvasti suurempaan teknologiseen omavaraisuuteen ja kyberavaruuden valvontaan. On siis järkevää harkita kiinalaisia vastineita, kuten 21vianetin O365:ttä tai Baidu Cloudia jne. vaihtoehtoisina pilvipalveluina, mutta niiden sovittaminen yrityksen teknologiastackiin voi olla hankalaa ja datavirrat säilytys on harkittava huolellisesti tietosuojauhkiin liittyvien riskien minimoimiseksi sekä asetusten, kuten EU:n yleisen tietosuoja-asetuksen (GDPR) ja Kiinan henkilötietojen suojelulain (PIPL), noudattamiseksi.</p>
+<h3 id="laitteiden-hankinta">Laitteiden hankinta</h3>
+<p>Yleensä laitteiden hankkiminen ja asentaminen Kiinassa on helpompaa kuin asentaminen muualla, toimittaminen Kiinaan ja tullin kanssa asioiminen. Kuitenkin leasing-järjestelyt, jotka ovat yleisiä Suomessa, jossa tietokoneet leasataan kolmeksi tai neljäksi vuodeksi ja palautetaan sen jälkeen, eivät näytä olevan yleisiä Kiinassa. On todennäköistä, että yritys joutuu ostamaan kaikki laitteet, mukaan lukien henkilökunnan tietokoneet, ja huolehtimaan niiden koko elinkaaresta itse, mukaan lukien laitteen kierrätys tai myynti.</p>
+<h2 id="prosessit">Prosessit</h2>
+<p>Prosesseissa on kysymys siitä, miten yritys toimii saavuttaakseen liiketoimintatavoitteensa. IT:n osalta ne käsittelevät sitä, miten ihmiset käyttävät käytettävissään olevia IT-järjestelmiä, laitteita ja pääsyjä. Prosesseihin vaikuttavat myös ulkoiset säädökset ja yrityksen sisäiset käytännöt. Viimeisen kahden vuosikymmenen aikana sekä Kiinassa että EU:ssa on investoitu voimakkaasti tietosuojan ja kyberturvallisuuden vahvistamiseen, ja tämä trendi on vain kiihtynyt vuodesta 2016 lähtien.</p>
+<h3 id="lainsäädäntö-eussa-ja-kiinassa">Lainsäädäntö EU:ssa ja Kiinassa</h3>
+<p>Sekä EU:n että Kiinan lainsäädännöt käsittelevät yksityisyyden suojaa, kyberturvallisuutta ja kansainvälistä tietosiirtoa. EU pyrkii luomaan yhtenäisen lainsäädännön sekä tietosuojastandardit koko unionin alueella sen kansalaisten henkilötietojen suojelemiseksi. Toisaalta Kiina keskittyy kansallisen turvallisuuden ja suvereniteetin suojelemiseen, mikä on johtanut tiukempiin sääntöihin liittyen tietojen säilyttämiseen ja siirtämiseen sen rajojen ulkopuolelle.</p>
+<p>Molemmat alueet todennäköisesti jatkavat lainsäädännön kehittämistä vastaamaan uusien teknologioiden, kuten tekoäly, lohkoketjut ja pilvipalvelut, haasteisiin ja yritysten on kyettävä mukautumaan nopeasti kehittyväänlainsäädäntöön. Tämä sopeutuminen edellyttää investointeja kyberturvallisuuteen, avoimuuteen henkilötietojen käsittelyssä, tietosuojan parantamiseen ja tietojen luokittelun ja käsittelyn prosessien kehittämiseen, jotta yritykset voivat tietää tarkalleen, mitä tietoja varastoidaan ja siirretään missäkin. Myös säädösten ristiriidat voivat aiheuttaa liiketoimintariskejä.</p>
+<p>Vaikka EU:n ja Kiinan kyberturvallisuus- ja tietosuojalakien takana on yhteneviä tavoitteita henkilötietojen suojelun ja kyberturvallisuuden parantamisen suhteen, EU:n lainsäädäntö korostaa yksilön oikeuksia ja vaatii yrityksiltä tiukkoja tietosuojan ja tietoturvan standardeja sekä rajoittaa EU-kansalaisten tietojen siirtoa maihin, joiden lainsäädäntö ei takaa vastaavaa suojaa, Kiinan lainsäädäntö keskittyy enemmänkin valtion kontrolliin ja kansallisen turvallisuuden kysymyksiin, vaatien yrityksiltä yhteistyötä, sisältäen tietojen luovuttamisen viranomaisille pyydettäessä, sekä määrittää rajoituksia tietojen siirtämiselle Kiinan ulkopuolelle koskien Kiinan kansalaisten henkilötietoja, sekä erittäin laajasti määriteltyjä Kiinan kansallista turvallisuutta ja etua koskevia tietoja.</p>
+<p>Arvioitavat lait sisältävät:</p>
+<p><strong>EU:n lainsäädäntö:</strong></p>
+<ul>
+<li>Direktiivi 95/46/EC (1995): Ensimmäinen merkittävä EU:n tietosuojalainsäädäntö.</li>
+<li>Direktiivi 2002/58/EC (ePrivacy-direktiivi, 2002): Keskittyy sähköisen viestinnän yksityisyyteen ja turvallisuuteen.</li>
+<li>Direktiivi 2013/40/EU (NIS-direktiivi, 2016): Ensimmäinen EU:n laajuinen kyberturvallisuuslainsäädäntö.</li>
+<li>Yleinen tietosuoja-asetus (GDPR, 2016): Korvasi direktiivin 95/46/EC tuoden merkittäviä muutoksia.</li>
+<li>Whistleblower-direktiivi (2019): Tarjoaa suojaa työntekijöille, jotka ilmoittavat laittomista toimista tai väärinkäytöksistä, mukaan lukien tietomurrot.</li>
+<li>NIS2-direktiivi (2023): Päivitys NIS-direktiivin, joka pyrkii parantamaan kyberturvallisuuden tasoa kaikkien EU:n jäsenvaltioiden ja toimijoiden keskuudessa.</li>
+</ul>
+<p><strong>Kiinan lainsäädäntö:</strong></p>
+<ul>
+<li>Tietoturvalaki (2006): Kiinan ensimmäinen tietoturvaan ja yksityisyyden suojaan keskittyvä laki.</li>
+<li>Tietoverkkojen turvallisuuslaki (2013): Korostaa tietoturvan merkitystä kansallisen turvallisuuden kannalta.</li>
+<li>Kyberturvallisuuslaki (2017): Kiinan ensimmäinen kattava kyberturvallisuuslainsäädäntö.</li>
+<li>Tietoturvallisuuslaki (DSL, 2021): Keskittyy laajasti tietoturvaan ja käsittelyvaatimuksiin.</li>
+<li>Henkilötietojen suojalaki (PIPL, 2021): Kiinan ensimmäinen laki, joka erityisesti käsittelee henkilötietojen suojaa.</li>
+<li>Vastavakoilulaki (Päivitetty, 2023): Laaja päivitys olemassa olevaan vastavakoilulainsäädäntöön, joka kieltää kaiken &ldquo;kansalliseen turvallisuuteen ja etuihin&rdquo; liittyvän tiedon siirtämisen ulkomaille ja laajentaa vakoilun määritelmää. Laki myös antaa vastavakoiluun liittyvää tutkimusta tekeville viranomaisille oikeuden päästä käsiksi tietoihin, elektronisiin laitteisiin ja henkilökohtaiseen omaisuuteen sekä mahdollisuuden kieltää maasta poistumisen.</li>
+</ul>
+<p>Kansainvälisen yrityksen on päätettävä tarkalleen, mitä tietoja se voi säilyttää Kiinassa ja mitä tietoja se voi siirtää Kiinasta ulos. Esimerkkejä ovat Active Directory -rakenteen suunnittelu, HR-järjestelmät, asiakas- ja käyttäjätietokannat sekä muut järjestelmät, jotka tulee suunnitella niin, että vain tarpeelliset tiedot siirretään toimipaikkojen välillä ja eturistiriidat voidaan välttää.</p>
+<h3 id="yrityksen-käytännöt">Yrityksen käytännöt</h3>
+<p>Liiketoimintaprosessit ja yrityksen käytännöt, jotka toimivat Suomessa tai EU:ssa, eivät välttämättä ole suoraan sovellettavissa Kiinassa. Esimerkiksi yrityksen käytäntö saattaa vaatia, että kaikki ohjelmistot käyttäjien tietokoneilla ajetaan peruskäyttäjäoikeuksilla eikä korotetuilla järjestelmänvalvojan oikeuksilla, mutta esimerkiksi jotkut Kiinan verotusilmoitusten tekoon käytetyt sovellukset, joita yritysten on pakko käyttää, saattavat vaatia paikallisia järjestelmänvalvojan oikeuksia toimiakseen. Yrityksellä on oltava suunnitelmat siihen, miten tällaiset tilanteet voidaan hoitaa.</p>
+<p>Toinen esimerkki on, että yritys saattaa vaatia kaiken viestinnän ulkoisten asiakkaiden tai sidosryhmien kanssa tapahtuvan käyttäen yrityksen sähköpostia tai Teamsin tai muun collaborointisovelluksen kautta. Myös tiedostojen lähettämisen yhteydessä saatetaan vaatia turvallisia tiedostojakoja tai salattuja sähköposteja. Kuitenkin Kiinassa sähköpostia pidetään erittäin virallisena viestintätapana, ja ihmiset käyttävät usein WeChatia työviestintään ja tiedostojen lähettämiseen, koska se on kätevä käyttää ja kaikki muutkin käyttävät sitä, huolimatta siitä, että se on tunnetusti raskaasti valvottu ja sensuroitu palvelu. WeChatin käyttöä ei välttämättä myöskään voi välttää, koska asiakkaat saattavat vaatia sen käyttöä. Yrityksellä tulee olla selkeät ohjeet WeChatin käytölle ja varmistaa esimerkiksi, että palomuurisäännöt sallivat tai kieltävät sen käytön yrityksen käytäntöjen mukaisesti ja että helpdesk tietää, miten tukea käyttäjiä sallittujen kommunikaatiovälineiden suhteen.</p>
+<h2 id="ihmiset">Ihmiset</h2>
+<p>Kulttuurierot vaikuttavat siihen, miten ihmiset suhtautuvat teknologiaan ja vuorovaikuttavat sen kanssa ja minkälaista tukea heille on järjestettävä.</p>
+<h3 id="työvälineet">Työvälineet</h3>
+<p>Suomessa on yleinen käytäntö, että yritykset tarjoavat työvälineet henkilöstölle, mutta monet kiinalaiset suosivat BYOD (Bring Your Own Device, tuo oma laite) -käytäntöjen ja yrityksen tarjoamien tietokoneiden yhdistelmää. Joskus myös yritykset suosivan sitä, että työntekijät käyttävät omia tietokoneitaan, koska näin yritys voi säästää rahaa tietokoneiden ostamisessa. Käyttäjät saattavat myös käyttää tietokoneitaan kuin omia henkilökohtaisia tietokoneitaan ja haluavat asentaa niihin WeChatin, Baidu Cloud -agentin synkronoimaan omia tiedostojaan tai muita omia suosikkiohjelmistojaan yrityksen tarjoamien ohjelmistojen sijaan. Keskustelin kerran yrityksen tietokoneiden päivittämisestä erään kiinalaisen kanssa, ja hän ehdotti että koska kiinalaiset mielellään vertailevat millaisia bonuksia yritykset ovat heille antaneet kiinalaisena uutena vuonna, meidän kannattaisi antaa uudet tietokoneet lahjana kiinalaisena uutena vuonna. Tämä oli mielenkiintoinen idea, joka toi hyvin esiin omastani täysin erilaisen suhtautumisen yrityksen tietokoneisiin. Tietokoneet ietokoneet eivät olleet vain yrityksen tarjoamia työkaluja, vaan henkilökohtaisia esineitä, jotka annettiin työntekijöille.</p>
+<h3 id="viestintä">Viestintä</h3>
+<p>Olen huomannut, että kiinalaiset ovat hyvin avoimia ja heidän kanssaan on helppo keskustella. Suomalaisten ja Kiinalaisten viestintätyyleissä on myös monia yhtäläisyyksiä. Henkilöstö noudattaa yleensä ohjeita ja käytäntöjä, todennäköisesti paremmin kuin suomalaiset, vaikka niiden syitä ei olisikaan perusteltu heille. Toisaalta suomalaiset saattavat olla hitaita vastaamaan sähköposteihin tai saattavat jättää vastaamatta kokonaan kunnes ovat varmoja jostakin. Työelämä Kiinassa on erittäin kilpailuhenkistä ja nopeita tuloksia arvostetaan. Kiinalaiset löytävätkin hyvin nopeasti jonkin pikaratkaisun, jos he eivät saa vastausta helpdesk-tiketteihinsä tarpeeksi nopeasti, vaikka se ei olisikaan linjassa yrityksen käytäntöjen kanssa. Pikaratkaisu voi myös edelleen sisältää laittoman ohjelmiston asentamisen tai lisenssigeneraattorin lataamisen, vaikkakin tämä on vähenemään päin.</p>
+<h3 id="kielimuuri">Kielimuuri</h3>
+<p>Kielimuurin ylittäminen ja kulttuurierojen ymmärtäminen ovat suurimmat haasteet kiinalaisten kanssa toimiessa. Englannin kielen taidon taso vaihtelee suuresti, joten kärsivällisyys, selkeä viestintä, sekä olettamusten välttäminen ja sen sijaan kysyminen ovat avainasemassa. Itse olen huomannut, että mandariinikiinan opiskelu ja keskeisten kulttuuristen piirteiden tunteminen, kuten hierarkian kunnioitus, epäsuora viestintä, vahva ryhmäorientaatio, kova kilpailuhenkisyys ja &ldquo;kasvojen&rdquo; käsite, on auttanut suuresti viestinnässä kiinalaisten kollegoideni kanssa..</p>
+<p>Näiden erojen käsittelemiseksi yrityksen käytäntöjen tulee määritellä selkeät säännöt yrityksen laitteiden ja sallittujen sovellusten käyttöön ottaen huomioon sekä yrityksen vaatimukset että kiinalainen kulttuuri. Henkilöstölle tulee tarjota runsaasti koulutusta käytännöistä ja tukea tulee olla tarvittaessa saatavilla nopeasti. Lisäksi, koska henkilökohtaiset suhteet ovat erittäin tärkeitä Kiinassa, yrityksen tulisi investoida siihen, että Euroopassa työskentelevät henkilöt, jotka tekevät säännöllisesti yhteistyötä Kiinan toimiston kanssa, mukaan lukien helpdesk-insinöörit, jos Kiinan toimistolle tarjotaan helpdesk-palvelut etänä jostakin muusta sijainnista, käyvät tapaamassa kiinalaisia kollegoitaan. Tämä parantaa yhteistyötä ja ongelmanratkaisua suuresti, auttaa ihmisiä muissa toimistoissa ymmärtämään ongelmat Kiinan toimistossa ja päinvastoin, sekä auttaa myös kiinalaisia kollegoita helpommin hakemaan apua.</p>
+<h1 id="johtopäätökset">Johtopäätökset</h1>
+<p>IT-ympäristön perustaminen Kiinassa, kuten missä tahansa muuallakin, edellyttää kattavaa ymmärrystä yrityksen tarpeista, henkilöstön käyttäytymisestä ja vaatimuksista sekä toimintaan liittyvästä lainsäädännöstä. Kuitenkin kiinalaisen kontekstin erityispiirteet tuovat mukanaan joitakin erityisiä haasteita, jotka on otettava huomioon tehokkaan toiminnan takaamiseksi.</p>
+<p>Meillä on taipumus nähdä internet yhtenäisenä palveluna, joka on samanlainen kaikkialla, vaikka näin ei todellisuudessa ole. Kiinan suuri palomuuri ja tiukat tieto- ja kyberturvallisuuslait vaikuttavat digitaaliseen ympäristöön meille tuntemattomilla tavoilla, jotka vaikuttavat päätöksiin pilvipalveluista, laitteiden hankinnasta ja yhteyksistä. Huolimatta näistä haasteista, tehokkaan IT-ympäristön rakentamisen periaatteet pysyvät samoina. Vaatimukset täytyy ymmärtää, kartoittaa  vaihtoehdot ja sovittaa strategia paikallisiin vaatimuksiin.</p>
+<p>Kulttuuriset vivahteet, jotka ovat osa liiketoimintaprosesseja ja yrityksen käytäntöjä, ovat toinen keskeinen tekijä Kiinassa toimiessa. Vaikka olennaiset osat pysyvät samoina kuin muissakin maissa, yksityiskohdat, kuten suhtautuminen BYOD:iin ja yrityksen tarjoamiin laitteisiin, nopeiden vastausten ja ongelmanratkaisun merkitys, sekä henkilökohtaisten suhteiden tärkeys lisäävät monimutkaisuutta, joka on otettava huomioon.</p>
+<p>Kielimuurin ylittäminen ja henkilökohtaisten suhteiden luominen työntekijöiden kesken johtaa parempaan yhteistyöhön ja molemminpuoliseen ymmärrykseen Ihmiskeskeinen lähestymistapa on universaalisti tärkeä, mutta se on erityisen merkittävä Kiinassa, jossa henkilökohtaisilla suhteilla on ratkaiseva rooli.</p>
+<p>IT-ympäristön luominen Kiinassa tuo mukanaan omat erityispiirteensä ja mukautuminen on avainasemassa kun mietitään, miten erityisvaatimuksiin sopeudutaan, miten opettaa yrityksen käytännöt henkilöstölle, miten jalkauttaa yrityksen prosessit, miten sopeutua paikalliseen sääntelyyn ja miten suojata yrityksen data, järjestelmät ja liiketoiminta uhilta. Samankaltaisuuksien tunnistaminen ja erojen käsittely avaa tien onnistuneelle, tehokkaan, toimivan ja vaatimustenmukaisen IT-ympäristön luomiselle.</p>
+<p><strong>Sources:</strong></p>
+<ul>
+<li><a href="https://protonvpn.com/blog/great-firewall-china/" target="_blank" >https://protonvpn.com/blog/great-firewall-china/</a>
+
+</li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy" target="_blank" >https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy</a>
+
+</li>
+<li><a href="https://gdpr-info.eu/" target="_blank" >https://gdpr-info.eu/</a>
+
+</li>
+<li><a href="https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX%3A32016R0679" target="_blank" >https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX%3A32016R0679</a>
+
+</li>
+<li><a href="https://eur-lex.europa.eu/eli/dir/2016/1148/oj" target="_blank" >https://eur-lex.europa.eu/eli/dir/2016/1148/oj</a>
+
+</li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/policies/nis-directive" target="_blank" >https://digital-strategy.ec.europa.eu/en/policies/nis-directive</a>
+
+</li>
+<li><a href="https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI%282021%29689333" target="_blank" >https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)689333</a>
+
+</li>
+<li><a href="https://www.nis-2-directive.com/" target="_blank" >https://www.nis-2-directive.com/</a>
+
+</li>
+<li><a href="https://eur-lex.europa.eu/legal-content/Fi/ALL/?uri=CELEX%3A32002L0058" target="_blank" >https://eur-lex.europa.eu/legal-content/Fi/ALL/?uri=CELEX%3A32002L0058</a>
+
+</li>
+<li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1937" target="_blank" >https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1937</a>
+
+</li>
+<li><a href="https://flk.npc.gov.cn/detail2.html?MmM5MDlmZGQ2NzhiZjE3OTAxNjc4YmY4Mjc2ZjA5M2Q%3D" target="_blank" >https://flk.npc.gov.cn/detail2.html?MmM5MDlmZGQ2NzhiZjE3OTAxNjc4YmY4Mjc2ZjA5M2Q%3D</a>
+
+</li>
+<li><a href="http://www.npc.gov.cn/englishnpc/c23934/202112/1abd8829788946ecab270e469b13c39c.shtml" target="_blank" >http://www.npc.gov.cn/englishnpc/c23934/202112/1abd8829788946ecab270e469b13c39c.shtml</a>
+
+</li>
+<li><a href="https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/" target="_blank" >https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/</a>
+
+</li>
+</ul>
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/kiina/">Kiina</a>
+                    
+                
+                    
+                    
+                    <a href="https://nakamura.fi/fi/tags/it/">IT</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+    <div class="languages">
+        <i class="fa fa-language"></i>
+        <div class="links">
+            
+                <a href="https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">en</a>
+            
+        </div>
+    </div>
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Viimeisimmät artikkelit</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">IT-ympäristön pystyttäminen ja ylläpito Kiinassa</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/gallery/2023-05-15-rewiew-of-a-month-studying-chinese-in-taipei/">Katsaus kuukauden mittaiseen kiinan kielen opiskeluun Taipeissa</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/video/2023-04-14-maritime-cybersecurity-turkusec-presentation-2023-04-14/">Esitys: Meriteollisuuden vastaus kasvaviin kyberuhkiin (Englanniksi)</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2023-02-16-charting-a-course-to-cybersecurity/">Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/">D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://nakamura.fi/fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/">Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://nakamura.fi/fi/categories/"><strong>Kategoriat</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/it-ja-kyberturvallisuus/">IT ja Kyberturvallisuus (5)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://nakamura.fi/fi/categories/kielten-opiskelu/">Kielten opiskelu (1)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Sosiaalinen media</strong>
+                
+                <a href="https://www.linkedin.com/in/petterinakamura" target="_blank" rel=""><em class="fab fa-linkedin"></em></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                    <strong>Muut kielet</strong>
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/">en</a>
+                        
+                    
+                        
+                        
+                            
+                        
+
+                        
+                            <a href="/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/" class="active">fi</a>
+                        
+                    
+                </div>
+            
+
+            
+            <div class="archive">
+                
+                <a href="https://nakamura.fi/fi/archive/"><strong>Arkisto</strong></a>
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://www.linkedin.com/in/petterinakamura" target="_blank">
+                &copy;
+                
+                2023
+                
+                by Petteri Nakamura
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VCWVGF572"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2VCWVGF572', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <script src="https://nakamura.fi/theme.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

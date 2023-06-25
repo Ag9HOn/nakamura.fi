@@ -2,7 +2,7 @@
 title: "Ovatko Suomalaiset yritykset edelläkäviöitä taistelussa spoofingia vastaan?"
 date: 2018-12-11T19:28:11+03:00
 
-categories: ["Kyberturvallisuus"]
+categories: ["IT ja Kyberturvallisuus"]
 tags: ["DMARC", "DKIM", "SPF", "Sähköposti",]
 toc: false
 author: "Petteri Nakamura"

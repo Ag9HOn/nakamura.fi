@@ -30,7 +30,7 @@ googleAnalytics = "G-2VCWVGF572"
   # Description and meta data for the search engines
   author = "Petteri Nakamura"
   description = "Petteri Nakamura's personal website and blog"
-  keywords = "blog,cybersecurity,cyber,cyber security,language learning"
+  keywords = "blog,cybersecurity,cyber,cyber security,IT, IT Service Management,language learning"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -158,7 +158,7 @@ googleAnalytics = "G-2VCWVGF572"
     # credits line configuration
     copyrightBy = "by Petteri Nakamura"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
+    copyrightYearOverride = "2023"
     copyrightUrl = "https://www.linkedin.com/in/petterinakamura"
     creditsText = "Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
@@ -183,7 +183,7 @@ googleAnalytics = "G-2VCWVGF572"
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
-    startLevel = 2
+    startLevel = 1
 
 # do NOT change anything below
 [taxonomies]

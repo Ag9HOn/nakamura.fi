@@ -2,7 +2,7 @@
 title: "D.. What? SPF, DKIM, and DMARC; What Exactly Are They"
 date: 2019-01-09T19:28:11+03:00
 
-categories: ["Cybersecurity"]
+categories: ["IT and Cybersecurity"]
 tags: ["DMARC", "DKIM", "SPF", "Email",]
 toc: false
 author: "Petteri Nakamura"

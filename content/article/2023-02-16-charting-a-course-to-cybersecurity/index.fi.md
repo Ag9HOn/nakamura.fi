@@ -2,7 +2,7 @@
 title: "Kurssi kohti kyberturvallisuutta: Merenkulkualan vastaus kasvaviin uhkiin"
 date: 2023-02-16T19:28:11+03:00
 
-categories: ["Kyberturvallisuus"]
+categories: ["IT ja Kyberturvallisuus"]
 tags: ["Kyberturvallisuus", "Säädökset", "Meriliikenteen kyberturvallisuus"]
 toc: false
 author: "Petteri Nakamura"

@@ -2,7 +2,7 @@
 title: "D.. Mitä? SPF, DKIM ja DMARC; Mitä ne tarkalleen ottaen ovat"
 date: 2019-01-09T19:28:11+03:00
 
-categories: ["Kyberturvallisuus"]
+categories: ["IT ja Kyberturvallisuus"]
 tags: ["DMARC", "DKIM", "SPF", "Sähköposti",]
 toc: false
 author: "Petteri Nakamura"

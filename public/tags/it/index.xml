@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on Petteri Nakamura</title>
+    <link>https://nakamura.fi/tags/it/</link>
+    <description>Recent content in IT on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Jun 2023 15:28:11 +0300</lastBuildDate><atom:link href="https://nakamura.fi/tags/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up and Managing an IT Environment in China</title>
+      <link>https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</link>
+      <pubDate>Sun, 25 Jun 2023 15:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</guid>
+      <description>&lt;p&gt;In the past six and half years, I&amp;rsquo;ve had the privilege to serve in various IT roles in a company with an office in China. Through roles as a Network and Server Administrator, IT Service Manager, and a Cybersecurity Manager, I&amp;rsquo;ve gained unique insights into the dynamics of operating an IT environment in China and while many Finnish companies operate in China and it is common wisdom that the operating environment in the country is very different from Finland, I personally have not met many other IT people with insights and experience working with Chinese colleagues or building, maintaining and improving an IT environment as a part of a Finnish or other European company there. Therefore, I decided to write this blog post to share my insights on what to consider from Finnish IT professional’s point of view.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nakamura.fi/article/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/article/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/author/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/author/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/categories/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/categories/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/tags/china/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+  </url><url>
+    <loc>https://nakamura.fi/tags/it/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/tags/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/tags/it/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/categories/it-and-cybersecurity/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+  </url><url>
+    <loc>https://nakamura.fi/author/petteri-nakamura/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/author/petteri-nakamura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/author/petteri-nakamura/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/"
+                />
+  </url><url>
+    <loc>https://nakamura.fi/tags/</loc>
+    <lastmod>2023-06-25T15:28:11+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://nakamura.fi/fi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nakamura.fi/tags/"
+                />
+  </url><url>
     <loc>https://nakamura.fi/page/</loc>
     <lastmod>2023-06-06T21:39:03+03:00</lastmod>
     <xhtml:link
@@ -13,19 +123,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://nakamura.fi/page/"
-                />
-  </url><url>
-    <loc>https://nakamura.fi/</loc>
-    <lastmod>2023-06-06T21:39:03+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/"
                 />
   </url><url>
     <loc>https://nakamura.fi/page/whoami/</loc>
@@ -67,32 +164,6 @@
                 href="https://nakamura.fi/gallery/"
                 />
   </url><url>
-    <loc>https://nakamura.fi/author/</loc>
-    <lastmod>2023-05-15T19:28:11+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/author/"
-                />
-  </url><url>
-    <loc>https://nakamura.fi/categories/</loc>
-    <lastmod>2023-05-15T19:28:11+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/categories/"
-                />
-  </url><url>
     <loc>https://nakamura.fi/tags/chinese/</loc>
     <lastmod>2023-05-15T19:28:11+03:00</lastmod>
   </url><url>
@@ -104,19 +175,6 @@
   </url><url>
     <loc>https://nakamura.fi/tags/ltl-language-school/</loc>
     <lastmod>2023-05-15T19:28:11+03:00</lastmod>
-  </url><url>
-    <loc>https://nakamura.fi/author/petteri-nakamura/</loc>
-    <lastmod>2023-05-15T19:28:11+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/author/petteri-nakamura/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/author/petteri-nakamura/"
-                />
   </url><url>
     <loc>https://nakamura.fi/gallery/2023-05-15-rewiew-of-a-month-studying-chinese-in-taipei/</loc>
     <lastmod>2023-05-15T19:28:11+03:00</lastmod>
@@ -131,23 +189,7 @@
                 href="https://nakamura.fi/gallery/2023-05-15-rewiew-of-a-month-studying-chinese-in-taipei/"
                 />
   </url><url>
-    <loc>https://nakamura.fi/tags/</loc>
-    <lastmod>2023-05-15T19:28:11+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/tags/"
-                />
-  </url><url>
     <loc>https://nakamura.fi/tags/cybersecurity/</loc>
-    <lastmod>2023-04-14T16:23:40+01:00</lastmod>
-  </url><url>
-    <loc>https://nakamura.fi/categories/cybersecurity/</loc>
     <lastmod>2023-04-14T16:23:40+01:00</lastmod>
   </url><url>
     <loc>https://nakamura.fi/tags/regulation/</loc>
@@ -192,19 +234,6 @@
                 href="https://nakamura.fi/video/"
                 />
   </url><url>
-    <loc>https://nakamura.fi/article/</loc>
-    <lastmod>2023-02-16T19:28:11+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fi"
-                href="https://nakamura.fi/fi/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nakamura.fi/article/"
-                />
-  </url><url>
     <loc>https://nakamura.fi/article/2023-02-16-charting-a-course-to-cybersecurity/</loc>
     <lastmod>2023-02-16T19:28:11+03:00</lastmod>
     <xhtml:link
@@ -221,17 +250,17 @@
     <loc>https://nakamura.fi/tags/maritime-cybersecurity/</loc>
     <lastmod>2023-02-16T19:28:11+03:00</lastmod>
   </url><url>
-    <loc>https://nakamura.fi/page/cybersecurity/</loc>
+    <loc>https://nakamura.fi/page/it-and-cybersecurity/</loc>
     <lastmod>2021-11-01T12:17:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fi"
-                href="https://nakamura.fi/fi/page/cybersecurity/"
+                href="https://nakamura.fi/fi/page/it-and-cybersecurity/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nakamura.fi/page/cybersecurity/"
+                href="https://nakamura.fi/page/it-and-cybersecurity/"
                 />
   </url><url>
     <loc>https://nakamura.fi/page/languagelearning/</loc>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT and Cybersecurity on Petteri Nakamura</title>
+    <link>https://nakamura.fi/categories/it-and-cybersecurity/</link>
+    <description>Recent content in IT and Cybersecurity on Petteri Nakamura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Jun 2023 15:28:11 +0300</lastBuildDate><atom:link href="https://nakamura.fi/categories/it-and-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up and Managing an IT Environment in China</title>
+      <link>https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</link>
+      <pubDate>Sun, 25 Jun 2023 15:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/article/2023-06-25-setting-up-and-managing-an-it-environment-in-china/</guid>
+      <description>&lt;p&gt;In the past six and half years, I&amp;rsquo;ve had the privilege to serve in various IT roles in a company with an office in China. Through roles as a Network and Server Administrator, IT Service Manager, and a Cybersecurity Manager, I&amp;rsquo;ve gained unique insights into the dynamics of operating an IT environment in China and while many Finnish companies operate in China and it is common wisdom that the operating environment in the country is very different from Finland, I personally have not met many other IT people with insights and experience working with Chinese colleagues or building, maintaining and improving an IT environment as a part of a Finnish or other European company there. Therefore, I decided to write this blog post to share my insights on what to consider from Finnish IT professional’s point of view.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Maritime Industry&#39;s Response to Growing Threats Presentation</title>
+      <link>https://nakamura.fi/video/2023-04-14-maritime-cybersecurity-turkusec-presentation-2023-04-14/</link>
+      <pubDate>Fri, 14 Apr 2023 16:23:40 +0100</pubDate>
+      
+      <guid>https://nakamura.fi/video/2023-04-14-maritime-cybersecurity-turkusec-presentation-2023-04-14/</guid>
+      <description>I was invited to give a presentation in TurkuSec on the new IMO and IACS requirements on cybersecurity for new ship builds. In this video I explain the significance of the IMO/IACS requirements, how Classification Societies create cybersecurity rules for the industry.
+Also see my other article on the subject and the TurkuSec website for more events.</description>
+    </item>
+    
+    <item>
+      <title>Charting a Course to Cybersecurity: The Maritime Industry&#39;s Response to Growing Threats</title>
+      <link>https://nakamura.fi/article/2023-02-16-charting-a-course-to-cybersecurity/</link>
+      <pubDate>Thu, 16 Feb 2023 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/article/2023-02-16-charting-a-course-to-cybersecurity/</guid>
+      <description>Over the last year I have participated in quite many discussions about cyber security in maritime industry. There is a trend of growing number of cyber attacks in the industry, which have caused lots of disruptions and financial losses for companies and organizations. The shipping industry is also particularly vulnerable to these threats due to the long service lives of onboard systems, growing use of cloud-based solutions by equipment manufacturers and shipowners both in new constructions and also as additions to in-service vessels to enable remote maintenance and collection of data.</description>
+    </item>
+    
+    <item>
+      <title>D.. What? SPF, DKIM, and DMARC; What Exactly Are They</title>
+      <link>https://nakamura.fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/</link>
+      <pubDate>Wed, 09 Jan 2019 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/article/2019-01-09-d-what-spf-dkim-and-dmarc-what-exactly-are-they/</guid>
+      <description>IT is wrought with acronyms and e-mail is no exception. In this post, I will explain how these three help battle spam and other malicious emails, that we all get every day. All of these work behind the scenes and are not visible to the end users of e-mail services, if they don&amp;rsquo;t go looking for them specifically.
+Some Background I have often likened e-mail to sending post cards. You write your message on a piece of hard paper, add the recipient address, sign your name, and off it goes.</description>
+    </item>
+    
+    <item>
+      <title>Are Finnish Companies Bleeding Edge in the Fight Against Spoofing</title>
+      <link>https://nakamura.fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</link>
+      <pubDate>Tue, 11 Dec 2018 19:28:11 +0300</pubDate>
+      
+      <guid>https://nakamura.fi/article/2018-12-11-are-finnish-companies-bleeding-edge-in-the-fight-against-spoofing/</guid>
+      <description>I took the Friday after the independence day free and apparently I didn&amp;rsquo;t have anything else to do, except to study SPF, DKIM, and DMARC. These are methods for senders to provide authentication for the sent emails to aid spam filters in detecting spoof attempts, with SPF and DKIM being a little bit older and more established, and DMARC being a newer method for communicating policy, building on the foundation of the other two.</description>
+    </item>
+    
+  </channel>
+</rss>

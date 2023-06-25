@@ -121,7 +121,7 @@ Kielimuurin ylittäminen ja henkilökohtaisten suhteiden luominen työntekijöid
 IT-ympäristön luominen Kiinassa tuo mukanaan omat erityispiirteensä ja mukautuminen on avainasemassa kun mietitään, miten erityisvaatimuksiin sopeudutaan, miten opettaa yrityksen käytännöt henkilöstölle, miten jalkauttaa yrityksen prosessit, miten sopeutua paikalliseen sääntelyyn ja miten suojata yrityksen data, järjestelmät ja liiketoiminta uhilta. Samankaltaisuuksien tunnistaminen ja erojen käsittely avaa tien onnistuneelle, tehokkaan, toimivan ja vaatimustenmukaisen IT-ympäristön luomiselle.
 
 
-**Sources:**
+**Lähteet:**
 - https://protonvpn.com/blog/great-firewall-china/
 - https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy
 - https://gdpr-info.eu/

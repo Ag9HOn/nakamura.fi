@@ -15,3 +15,7 @@ youtube: "FmvEiy7thFo"
 Vietin maaliskuun 2023 Taipeissa kiinan kieltä opiskellen. Siellä ollessani, minua haastateltiin LTL kielikoulun podcastiin. Katso videolla käymäni keskustelu LTL:n Rushin kanssa jokapäiväisestä kyberturvallisuudesta, ChatGPT:stä ja kiinan kielen opiskelukokemuksistani.
 
 Ennen haastattelua mietin kovasti mitä kertoa kielten opiskeluun liittyen, joten yllätyin kyberturvakysymyksistä niin, etten kuitenkaan huomannut WiFi-reitittimiä vaanivien bottiverkkojen ja henkilötietoja keräävien teknologiayritysten lisäksi nostaa esille tärkeintä syytä huolehtia kyberhygieniasta eli identiteettivarkauksia.
+
+<!--more-->
+
+Esimerkiksi ENISA on julkaissut hyvää [materiaalia kuinka suojautua identiteettivarkaudelta (englanniksi)](https://www.enisa.europa.eu/publications/archive/preventing-identity-theft_training-material). Suosittelen kaikkia tsekkaamaan!

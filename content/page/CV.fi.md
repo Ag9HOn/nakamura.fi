@@ -9,8 +9,11 @@ showDate: false
 # **Työkokemus**
 
 &nbsp;
-### **Deltamarin Ltd.** _(2017 - Nykyhetki)_
-- **Kyberturvapäällikkö** _(2022 - Nykyhetki)_
+### **Nixu, a DNV Company** _(2023 - Nykyhetki)_
+- **Security Consultant**
+
+##### **Deltamarin Ltd.** _(2017 - 2023)_
+- **Kyberturvapäällikkö** _(2022 - 2023)_
 - **IT Palvelupäällikkö** _(2020 - 2022)_
 - **IT Järjestelmäylläpitäjä** _(2017 - 2020)_
 
@@ -29,7 +32,8 @@ showDate: false
 &nbsp;
 ### **Korkeakoulututkinnot**
 
-- **Insinööri (ylempi AMK), tietotekniikka, kyberturvallisuuden koulutusohjelma** _(2017 - 2020)_
+- **Valtiotieteiden maisteri, Itä-Aasian tutkimus, Turun yliopisto** _(2023 - Nykyhetki)_
+- **Insinööri (ylempi AMK), kyberturvallisuus, Jyväskylän Ammattikorkeakoulu** _(2017 - 2020)_
 - **Insinööri (AMK), tietotekniikka, Hämeen ammattikorkeakoulu** _(2005 - 2009)_
 
 &nbsp;

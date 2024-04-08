@@ -11,8 +11,7 @@ link: ""
 target: "_blank"
 ---
 
-Työskentelen tällä hetkellä Kyberturvapäällikkönä, omistautuen yrityksen tietoturvan parantamiseen. Minulla on vankka tekninen tausta ja ylempi ammattikorkeakoulututkinto Kyberturvallisuudesta sekä alempi ammattikorkeakoulututkinto tietoverkoista. Teknisestä osaamisestani huolimatta pidän itseäni ennen kaikkea ihmisläheisenä henkilönä. Intohimoni ei ole pelkästään teknologian ymmärtämiseen, vaan myös sen soveltaminen palvelemaan ihmisiä ja yhteiskuntaa turvallisesti ja luotettavasti.
+Tavoitteeni on tehdä IT:stä turvallista niin, että se palvelee ihmisiä eikä päinvastoin. Kyberturvallisuudessa on loppupeleissä kyse ihmisten, liiketoiminnan ja yhteiskunnan suojelemista, ja toivon pystyväni vaikuttamaan asioihin.
 
-Ammatillisten kiinnostuksen kohteideni lisäksi olen intohimoinen kielten oppija, joka täydentää kiinnostustani kansainvälisiin ympäristöihin. Itä-Aasia kiehtoo minua erityisesti ja pyrin ymmärtämään sen ainutlaatuisia haasteita ja mahdollisuuksia myös kyberturvallisuuteen liittyen.
+Minulla on ylempi ammattikorkeakoulututkinto kyberturvallisuudesta sekä alempi ammattikorkeakoulututkinto tietoverkoista. Olen myös elinikäinen oppija ja erityisen kiinnostunut kansainvälisistä suhteista, geopolitiikasta, Itä-Aasiasta ja kansainvälisissä kuvioissa työskentelystä. Vuonna 2023 aloitin toisen maisterin tason tutkinnon suorittamisen yhteiskuntatieteissä Turun yliopistossa, keskittyen Itä-Aasiaan ja tavoitteena yhdistää kyberturvataustani yhteiskuntatieteisiin.
 
-Työtäni ohjaavia periaatteet ovat jatkuva oppiminen, selkeä viestintä ja kulttuurienvälinen yhteistyö. Pyrin luomaan luottamusta ja empatiaa kaikissa suhteissani, vahvistaen teknologian roolia ihmisiä ja yhteiskuntaa palvelevana työkaluna.

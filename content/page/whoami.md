@@ -7,9 +7,7 @@ icon: "fa-rocket"
 
 ---
 
-I currently work as a Cyber Security Manager, where I dedicate myself to enhancing our cyber security measures. I have a robust technical background, enriched by a Master of Engineering in Cyber Security and a Bachelor of Engineering in Network Technologies. Despite this strong technical foundation, I consider myself first and foremost a people person. My passion lies not just in understanding technology, but also in shaping it to serve people safely and securely.
+I'm a people person and have a passion for making IT safely and securely serve people instead of the other way around. I believe cybersecurity is ultimately about protecting people, business, and society, and I wish to be able to make an impact in the society around me.
 
-Apart from my professional interests, I'm passionate about language learning, a pursuit that complements my fascination with international relations. I find East Asia especially captivating, and I strive to understand its unique cybersecurity challenges and opportunities.
-
-As a professional, I abide by several guiding principles. I strongly advocate for continuous learning, clear communication, and cross-cultural collaboration. In all my relationships, I strive to foster trust and empathy, affirming the role of technology as a tool for serving people responsibly.
+By education I am a Master of Engineering in Cyber Security and a Bachelor of Engineering in Network Technologies. I am a lifelong learner and have a special interest in international relations, geopolitics, East Asia, and working in international environments. In 2023 this led me to pursue my second master’s degree in social sciences in the University of Turku, focusing on East Asia with the aim to combine my cybersecurity background with social sciences studies.
 

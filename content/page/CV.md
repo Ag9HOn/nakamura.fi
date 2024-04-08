@@ -9,8 +9,11 @@ showDate: false
 # **Work Experience**
 
 &nbsp;
-### **Deltamarin Ltd.** _(2017 - Present)_
-- **Cyber Security Manager** _(2022 - Present)_
+### **Nixu, a DNV Company** _(2023 - Present)_
+- **Security Consultant**
+
+##### **Deltamarin Ltd.** _(2017 - 2023)_
+- **Cyber Security Manager** _(2022 - 2023)_
 - **Service Manager** _(2020 - 2022)_
 - **System Administrator** _(2017 - 2020)_
 
@@ -29,6 +32,7 @@ showDate: false
 &nbsp;
 ### **Higher Education**
 
+- **Master's Degree in Social Sciences, University of Turku** _(2023 - Currently studying)_
 - **Master's Degree in Information Technology, Cyber Security, Jyväskylä University of Applied Sciences** _(2017 - 2020)_
 - **Bachelor of Engineering, Information Technology, Häme University of Applied Sciences** _(2005 - 2009)_
 
